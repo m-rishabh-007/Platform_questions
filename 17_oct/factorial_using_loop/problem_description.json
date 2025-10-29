@@ -1,0 +1,18 @@
+{
+  "external_id": "32",
+  "title": "Factorial Using Loop",
+  "difficulty": "Easy",
+  "description": "## Problem Statement\nWrite a function `computeFactorial` that takes a single integer n and returns its factorial using a loop (not recursion).\n\n## Input Format\n- A single integer n (0 ≤ n ≤ 20)\n\n## Output Format\n- A single integer: the factorial of n",
+  "constraints": "- 0 ≤ n ≤ 20",
+  "tags": [
+    "Problem Solving"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

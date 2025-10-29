@@ -1,0 +1,68 @@
+# Simple Interest Calculator
+
+## Problem Statement
+Write a function `calculateSimpleInterest` that calculates simple interest given principal, rate of interest, and time in years. The formula is SI = (P × T × R) / 100.
+
+## Input Format
+- Three space-separated numbers: Principal (P), Rate (R), and Time (T)
+
+## Output Format
+- Print the simple interest rounded to 2 decimal places
+
+## Constraints
+- 1 ≤ P ≤ 1000000
+- 0.01 ≤ R ≤ 100
+- 0.1 ≤ T ≤ 50
+
+## Sample Input 1
+```
+1000 5 2
+```
+
+## Sample Output 1
+```
+100.00
+```
+
+## Sample Input 2
+```
+5000 10 3
+```
+
+## Sample Output 2
+```
+1500.00
+```
+
+## Sample Input 3
+```
+2000 7.5 4
+```
+
+## Sample Output 3
+```
+600.00
+```
+
+## Sample Input 4
+```
+10000 3.5 1
+```
+
+## Sample Output 4
+```
+350.00
+```
+
+## Sample Input 5
+```
+1500 8 2.5
+```
+
+## Sample Output 5
+```
+300.00
+```
+
+## Concepts Tested
+Function parameters, basic arithmetic, formula application, floating-point arithmetic.

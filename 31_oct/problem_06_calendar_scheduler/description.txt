@@ -1,0 +1,29 @@
+Calendar/Appointment Scheduler CLI
+
+Create a command-line appointment scheduler that allows users to manage appointments. The system should support adding appointments with date/time, listing appointments for a specific date, and deleting appointments.
+
+Supported operations:
+- **ADD**: Add a new appointment with description, date, and time
+- **LIST**: Show all appointments for a specific date
+- **DELETE**: Remove an appointment by ID
+
+## Input Format
+- First line: An integer `n` representing the number of operations
+- Next `n` lines: Each line contains an operation:
+  - `ADD YYYY-MM-DD HH:MM description` - Add appointment
+  - `LIST YYYY-MM-DD` - List appointments for date
+  - `DELETE appointment_id` - Delete appointment
+
+## Output Format
+- **ADD**: `Added appointment #X: description at YYYY-MM-DD HH:MM`
+- **LIST**: 
+  - Each appointment: `X. HH:MM - description`
+  - If none: `No appointments for YYYY-MM-DD`
+- **DELETE**: `Deleted appointment #X`
+  - If not found: `Appointment #X not found`
+
+## Constraints
+- 1 ≤ n ≤ 100 (operations)
+- Date format: YYYY-MM-DD
+- Time format: HH:MM (24-hour)
+- Description: 1 to 100 characters

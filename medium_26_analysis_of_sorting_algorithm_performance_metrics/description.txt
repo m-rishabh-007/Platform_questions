@@ -1,0 +1,17 @@
+# Analysis of Sorting Algorithm Performance Metrics
+
+## Problem Statement
+Write a function `analyze_sort_performance` that compares naive vs optimized bubble sort. Naive bubble sort always does n-1 passes. Optimized bubble sort stops early when no swaps occur in a pass. Return how many passes the optimized version saves compared to naive.
+
+## Input Format
+- First line: Integer n (array size)
+- Second line: n space-separated integers representing the array elements
+
+## Output Format
+- Two space-separated integers: passes_saved additional_comparisons
+- passes_saved: (naive_passes - optimized_passes)
+- additional_comparisons: always 0 for this problem
+
+## Constraints
+- 1 ≤ n ≤ 1000
+- 1 ≤ array elements ≤ 10000

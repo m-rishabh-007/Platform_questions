@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "problem_11_lowest_common_ancestor",
+        "problem_id": 11,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 3,
+        "hidden_cases": 7,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "5\n0 -1 3\n1 0 5\n2 0 1\n3 1 6\n4 1 2\n5 1\n",
+          "expected_output": "3",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "3\n0 -1 1\n1 0 2\n2 0 3\n2 3\n",
+          "expected_output": "1",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "7\n0 -1 10\n1 0 5\n2 0 15\n3 1 3\n4 1 7\n5 2 12\n6 2 20\n3 12\n",
+          "expected_output": "10",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "3\n0 -1 1\n1 0 2\n2 1 3\n2 3",
+          "expected_output": "2",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "2\n0 -1 10\n1 0 20\n10 20",
+          "expected_output": "10",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "3\n0 -1 5\n1 0 3\n2 0 7\n3 7",
+          "expected_output": "5",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "3\n0 -1 1\n1 0 2\n2 1 3\n2 3",
+          "expected_output": "2",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "3\n0 -1 5\n1 0 3\n2 0 7\n3 7",
+          "expected_output": "5",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "8\n0 -1 950\n1 0 528\n2 0 206\n3 2 -196\n4 2 -995\n5 0 -997\n6 2 -664\n7 4 -968\n-995 -196",
+          "expected_output": "206",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "2\n0 -1 -58\n1 0 -446\n-446 -58",
+          "expected_output": "-58",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "problem_11_lowest_common_ancestor",
+        "problem_id": 11,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 3,
+        "hidden_cases": 7,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "5\n0 -1 3\n1 0 5\n2 0 1\n3 1 6\n4 1 2\n5 1\n",
+          "expected_output": "3",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "3\n0 -1 1\n1 0 2\n2 0 3\n2 3\n",
+          "expected_output": "1",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "7\n0 -1 10\n1 0 5\n2 0 15\n3 1 3\n4 1 7\n5 2 12\n6 2 20\n3 12\n",
+          "expected_output": "10",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "3\n0 -1 5\n1 0 3\n2 0 7\n3 7",
+          "expected_output": "5",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "2\n0 -1 10\n1 0 20\n10 20",
+          "expected_output": "10",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "3\n0 -1 5\n1 0 3\n2 0 7\n3 7",
+          "expected_output": "5",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "3\n0 -1 5\n1 0 3\n2 0 7\n3 7",
+          "expected_output": "5",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "2\n0 -1 10\n1 0 20\n10 20",
+          "expected_output": "10",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "8\n0 -1 -127\n1 0 503\n2 0 978\n3 2 813\n4 3 360\n5 1 81\n6 4 -615\n7 3 738\n-615 978",
+          "expected_output": "978",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "5\n0 -1 -425\n1 0 -802\n2 0 -395\n3 0 893\n4 2 -430\n-430 -395",
+          "expected_output": "-395",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    }
+  ]
+}

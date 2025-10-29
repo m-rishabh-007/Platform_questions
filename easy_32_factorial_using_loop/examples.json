@@ -1,0 +1,6 @@
+[
+  {"stdin": "5\n", "expected_output": "120\n", "visibility": "visible"},
+  {"stdin": "0\n", "expected_output": "1\n", "visibility": "visible"},
+  {"stdin": "1\n", "expected_output": "1\n", "visibility": "visible"},
+  {"stdin": "20\n", "expected_output": "2432902008176640000\n", "visibility": "visible"}
+]

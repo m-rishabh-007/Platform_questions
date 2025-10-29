@@ -1,0 +1,19 @@
+{
+  "external_id": "17",
+  "title": "Top K Frequent Elements",
+  "difficulty": "Medium",
+  "description": "Given an integer array nums and an integer k, return the k most frequent elements.\nYou may return the answer in any order.\n\n## Input Format\n- First line: Two integers n k (array length and k)\n- Second line: n space-separated integers\n\n## Output Format\n- k space-separated integers (the k most frequent elements in any order)",
+  "constraints": "- 1 \u2264 k \u2264 n \u2264 10^5\n- -10^4 \u2264 nums[i] \u2264 10^4\n- The answer is guaranteed to be unique",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

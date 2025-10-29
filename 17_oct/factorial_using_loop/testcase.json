@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "factorial_using_loop",
+        "problem_id": 32,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "5\n",
+          "expected_output": "120",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "0\n",
+          "expected_output": "1",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "1\n",
+          "expected_output": "1",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "20\n",
+          "expected_output": "2432902008176640000",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "0",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "1",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "20",
+          "expected_output": "2432902008176640000",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "1",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "0",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "4",
+          "expected_output": "24",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "factorial_using_loop",
+        "problem_id": 32,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "5\n",
+          "expected_output": "120",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "0\n",
+          "expected_output": "1",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "1\n",
+          "expected_output": "1",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "20\n",
+          "expected_output": "-2102132736",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "1",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "0",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "0",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "20",
+          "expected_output": "-2102132736",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "1",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "0",
+          "expected_output": "1",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    }
+  ]
+}

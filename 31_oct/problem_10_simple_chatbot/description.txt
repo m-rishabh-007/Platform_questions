@@ -1,0 +1,36 @@
+Simple Chatbot with Predefined Rules
+
+Build a rule-based chatbot that responds based on keyword matching.
+
+Rules:
+- Greetings (hello, hi, hey) → "Hi there! How can I help you?"
+- Farewell (bye, goodbye, exit) → "Goodbye! Have a great day!"
+- Weather (weather, temperature, forecast) → "I'm sorry, I can't check the weather, but it's always nice to go outside!"
+- Name (name, who are you) → "I'm a simple chatbot created to assist you."
+- Help (help, assist, support) → "I can chat with you! Try asking about the weather or saying hello."
+- Default → "I'm not sure I understand. Can you rephrase that?"
+
+Input Format:
+- First line: Integer n (number of messages)
+- Next n lines: User messages
+
+Output Format:
+- For each message, print the chatbot's response
+
+Constraints:
+- 1 ≤ n ≤ 50
+- Message length: 1 to 200 characters
+- Case-insensitive matching
+- Match keywords anywhere in message
+
+Example:
+Input:
+3
+hello
+what is the weather
+bye
+
+Output:
+Hi there! How can I help you?
+I'm sorry, I can't check the weather, but it's always nice to go outside!
+Goodbye! Have a great day!

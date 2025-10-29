@@ -1,0 +1,19 @@
+{
+  "external_id": "14",
+  "title": "Merge Overlapping Intervals",
+  "difficulty": "Easy",
+  "description": "You are given an array of intervals where intervals[i] = [start_i, end_i].\nMerge all overlapping intervals and return an array of non-overlapping intervals.\n\n## Input Format\n- First line: Integer n (number of intervals)\n- Next n lines: Two integers (start, end) for each interval\n\n## Output Format\n- Print merged intervals, one per line (start end)",
+  "constraints": "- 1 \u2264 n \u2264 10^4\n- 0 \u2264 start_i < end_i \u2264 10^4",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

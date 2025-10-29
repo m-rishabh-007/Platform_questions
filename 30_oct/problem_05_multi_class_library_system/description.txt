@@ -1,0 +1,111 @@
+Library System Command Processor
+
+Design a library management system that processes a series of commands and returns the output for each command.
+
+## Input Format
+Multiple lines of commands, each on a separate line, terminated by "EXIT". Each command is one of:
+- ADD BOOK "<title>" "<author>"
+- ADD MEMBER "<name>" <id>
+- CHECKOUT <member_id> "<title>"
+- RETURN "<title>"
+
+## Output Format
+Multiple lines, one result per command (excluding EXIT):
+- ADD BOOK: Book "<title>" added.
+- ADD MEMBER: Member "<name>" registered.
+- CHECKOUT: Checkout successful. | Error: Member not found. | Error: Book not found. | Error: Book not available.
+- RETURN: Return successful. | Error: Book not in records or was not checked out.
+
+## Rules
+- Duplicate books/members: Only register once (no output for duplicates)
+- A book can only be checked out by one member at a time
+- Checkout validates in order: member exists → book exists → book available
+
+## Constraints
+- 1 <= Number of commands <= 200
+- 1 <= length of names/titles <= 100
+- 1 <= member_id <= 1000
+
+## Sample Input 1
+```
+ADD BOOK "Dune" "Frank Herbert"
+ADD MEMBER "Bob" 101
+CHECKOUT 101 "Dune"
+CHECKOUT 101 "Dune"
+RETURN "Dune"
+EXIT
+```
+## Sample Output 1
+```
+Book "Dune" added.
+Member "Bob" registered.
+Checkout successful.
+Error: Book not available.
+Return successful.
+```
+
+## Sample Input 2
+```
+ADD BOOK "1984" "George Orwell"
+ADD MEMBER "Alice" 200
+CHECKOUT 999 "1984"
+CHECKOUT 200 "Unknown"
+EXIT
+```
+## Sample Output 2
+```
+Book "1984" added.
+Member "Alice" registered.
+Error: Member not found.
+Error: Book not found.
+```
+
+## Sample Input 3
+```
+RETURN "NonExistent"
+ADD BOOK "Brave New World" "Aldous Huxley"
+RETURN "Brave New World"
+EXIT
+```
+## Sample Output 3
+```
+Error: Book not in records or was not checked out.
+Book "Brave New World" added.
+Error: Book not in records or was not checked out.
+```
+
+## Sample Input 4
+```
+ADD BOOK "The Hobbit" "J.R.R. Tolkien"
+ADD MEMBER "Charlie" 300
+ADD MEMBER "Diana" 400
+CHECKOUT 300 "The Hobbit"
+CHECKOUT 400 "The Hobbit"
+RETURN "The Hobbit"
+CHECKOUT 400 "The Hobbit"
+EXIT
+```
+## Sample Output 4
+```
+Book "The Hobbit" added.
+Member "Charlie" registered.
+Member "Diana" registered.
+Checkout successful.
+Error: Book not available.
+Return successful.
+Checkout successful.
+```
+
+## Sample Input 5
+```
+ADD BOOK "Animal Farm" "George Orwell"
+ADD BOOK "Animal Farm" "George Orwell"
+ADD MEMBER "Eve" 500
+ADD MEMBER "Eve" 500
+EXIT
+```
+## Sample Output 5
+```
+Book "Animal Farm" added.
+Member "Eve" registered.
+```

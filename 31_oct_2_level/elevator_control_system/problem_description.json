@@ -1,0 +1,19 @@
+{
+  "external_id": "18",
+  "title": "Elevator Control System",
+  "difficulty": "Hard",
+  "description": "Design an object-oriented system to control elevators in a building.\nImplement a simplified simulation that processes a sequence of requests.\n\n## Input Format\n- Line 1: Three integers N M T (floors, elevators, time steps)\n- Next T lines: Requests in format \"EXTERNAL floor direction\" or \"INTERNAL elevator_id destination\"\n\n## Output Format\n- For each time step, print elevator action in the format shown in examples",
+  "constraints": "- 2 \u2264 N \u2264 100\n- 1 \u2264 M \u2264 10\n- 1 \u2264 T \u2264 100\n- Directions: UP, DOWN\n- Simple dispatching: use nearest idle elevator",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

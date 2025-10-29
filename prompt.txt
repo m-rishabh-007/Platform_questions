@@ -1,0 +1,68 @@
+# Competitive Programming Problem Generation Request
+
+## Context Setup
+I have a competitive programming platform toolkit with the following structure:
+- `.github/` folder containing project documentation and Copilot instructions
+- `templates/` folder containing all generation templates and specifications
+
+## Required Reading
+Before generating anything, please read these context files:
+1. `./templates/PLATFORM_CONTEXT.md` - Complete technical specifications
+2. `./.github/README.md` - Development guide and quality standards
+3. `./templates/QUICK_START.md` - Streamlined generation workflow
+
+## Problem Description
+all 5 problem descriptions and there details are given in /home/rishabh/coding_questions/SIRT/problems.txt file - analyze it very carefully make no mistake - look closely at each questions and each point
+## Generation Requirements
+
+absolute necessary note:- make the problems as challenging as you can, the description do not just keep it one liner, do whatevre you want make it challenging but not impossible
+Please generate a complete problem folder with exactly 8 files following the platform specifications:
+
+### Required Output Structure:
+```
+easy_21_remove_duplicates_from_a_list/
+├── description.txt     # Problem statement with natural method integration
+├── solution.py         # Working Python solution with Solution class
+├── solution.cpp        # Working C++ solution with Solution class
+├── template.py         # Clean Python starting code for contestants
+├── template.cpp        # Clean C++ starting code for contestants
+├── wrapper.py          # Python I/O handler for Judge0
+├── wrapper.cpp         # C++ I/O handler for Judge0
+├── generator.py        # Test case generator matching config rules
+├── config.json         # Generation buckets (edge/small/medium/large)
+└── examples.json       # Sample test cases in Judge0 format
+```
+
+### Critical Requirements:
+- **Method Consistency**: Same method name across ALL 8 files
+- **Solution Class Pattern**: Follow exact patterns from PLATFORM_CONTEXT.md
+- **Judge0 Ready**: stdin/stdout only, no file I/O
+- **Reference Examples**: Study `easy_21/` through `easy_25/` patterns
+- **Cross-Language**: Both Python and C++ must work identically
+- **Template Cleanliness**: No NotImplementedError or throw statements in templates
+
+### Quality Validation:
+After generation, please verify:
+1. ✅ All 8 files created following template patterns
+2. ✅ Method signatures identical across all files (Python and C++)
+3. ✅ Examples work for both Python and C++ solutions
+4. ✅ No compilation/syntax errors in any file
+5. ✅ Generator produces valid test cases matching config.json buckets
+6. ✅ Ready for `./templates/smoke_test.md` validation
+
+## Expected Workflow:
+1. Read context files to understand platform specifications
+2. Extract method name naturally from problem description (e.g., "filterPrimes")
+3. Generate all 8 files using templates as base (never from scratch)
+4. Ensure cross-file consistency and Judge0 compatibility
+5. Test basic functionality with provided examples
+6. Run comprehensive validation using smoke test methodology
+
+## Success Criteria:
+- Problem folder ready for Judge0 API testing
+- All files compile and run without errors
+- Method signatures consistent across all 8 files
+- Examples demonstrate correct functionality
+- Generator supports all config.json rule types
+
+Please proceed with complete problem generation following these specifications.

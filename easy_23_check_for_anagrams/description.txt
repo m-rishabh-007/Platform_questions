@@ -1,0 +1,73 @@
+# Check for Anagrams
+
+## Problem Statement
+Write a function `isAnagram` that takes two strings and returns True if they are anagrams of each other (contain the same characters in different orders), ignoring case and spaces.
+
+## Input Format
+- First line: First string
+- Second line: Second string
+
+## Output Format
+- Print "True" if they are anagrams, "False" otherwise
+
+## Constraints
+- 1 ≤ length of each string ≤ 1000
+- Strings contain only alphabetic characters and spaces
+
+## Sample Input 1
+```
+listen
+silent
+```
+
+## Sample Output 1
+```
+True
+```
+
+## Sample Input 2
+```
+hello
+world
+```
+
+## Sample Output 2
+```
+False
+```
+
+## Sample Input 3
+```
+The Eyes
+They See
+```
+
+## Sample Output 3
+```
+True
+```
+
+## Sample Input 4
+```
+anagram
+nagaram
+```
+
+## Sample Output 4
+```
+True
+```
+
+## Sample Input 5
+```
+python
+java
+```
+
+## Sample Output 5
+```
+False
+```
+
+## Concepts Tested
+String manipulation (case conversion, sorting), comparison, character frequency.

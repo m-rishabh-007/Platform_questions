@@ -1,0 +1,24 @@
+# Class-Based Vending Machine Model
+
+## Problem Statement
+Write a function `purchase` that simulates vending machine transactions. Process purchase requests against inventory and return status with change calculations.
+
+## Input Format
+- First line: Integer n (number of products in inventory)
+- Next n lines: product_name price quantity (space-separated)
+- Next line: Integer m (number of purchase requests)
+- Next m lines: product_name money_inserted (space-separated)
+
+## Output Format
+For each purchase request, output one line:
+- Success: "SUCCESS product_name change_amount"
+- Product not found: "PRODUCT_NOT_FOUND money_returned"  
+- Out of stock: "OUT_OF_STOCK money_returned"
+- Insufficient funds: "INSUFFICIENT_FUNDS money_returned"
+
+## Constraints
+- 1 ≤ n ≤ 100 (products)
+- 1 ≤ m ≤ 1000 (requests)
+- 1 ≤ price ≤ 1000
+- 0 ≤ quantity ≤ 100
+- 1 ≤ money_inserted ≤ 10000

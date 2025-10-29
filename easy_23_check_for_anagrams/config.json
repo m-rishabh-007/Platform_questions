@@ -1,0 +1,45 @@
+{
+  "generation_logic": [
+    {
+      "type": "edge_cases",
+      "count": 5,
+      "args": {
+        "predefined_values": [
+          {"str1": "", "str2": ""},
+          {"str1": "a", "str2": "a"},
+          {"str1": "a", "str2": "b"},
+          {"str1": "ab", "str2": "ba"},
+          {"str1": "abc", "str2": "def"}
+        ]
+      }
+    },
+    {
+      "type": "small",
+      "count": 10,
+      "args": {
+        "string_length_range": [1, 5]
+      }
+    },
+    {
+      "type": "medium",
+      "count": 10,
+      "args": {
+        "string_length_range": [5, 20]
+      }
+    },
+    {
+      "type": "large",
+      "count": 10,
+      "args": {
+        "string_length_range": [20, 100]
+      }
+    },
+    {
+      "type": "extra_large",
+      "count": 10,
+      "args": {
+        "string_length_range": [100, 1000]
+      }
+    }
+  ]
+}

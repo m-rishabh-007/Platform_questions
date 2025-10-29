@@ -1,0 +1,19 @@
+{
+  "external_id": "2",
+  "title": "Directory Tree Lister",
+  "difficulty": "Easy",
+  "description": "Given a file system as a nested dictionary, print a visual tree. Directories (dict values) end with '/', files are None. Items at each level are alphabetically sorted with 2-space indentation per level.\n\n## Input Format\n- Single line: JSON string representing file system\n\n## Output Format\n- Multi-line tree with 2-space indentation per level",
+  "constraints": "- Maximum depth: 10\n- Names: letters, numbers, underscores, periods only\n- Maximum 50 items per directory",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "stdin": "5\nADD 2024-03-15 09:00 Team meeting\nADD 2024-03-15 14:30 Doctor appointment\nLIST 2024-03-15\nDELETE 1\nLIST 2024-03-15\n",
+        "expected_output": "Added appointment #1: Team meeting at 2024-03-15 09:00\nAdded appointment #2: Doctor appointment at 2024-03-15 14:30\n1. 09:00 - Team meeting\n2. 14:30 - Doctor appointment\nDeleted appointment #1\n2. 14:30 - Doctor appointment\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "4\nADD 2024-04-01 10:00 Project review\nLIST 2024-04-01\nLIST 2024-04-02\nDELETE 5\n",
+        "expected_output": "Added appointment #1: Project review at 2024-04-01 10:00\n1. 10:00 - Project review\nNo appointments for 2024-04-02\nAppointment #5 not found\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "6\nADD 2024-05-10 08:00 Breakfast meeting\nADD 2024-05-10 12:00 Lunch with client\nADD 2024-05-11 15:00 Conference call\nLIST 2024-05-10\nLIST 2024-05-11\nDELETE 2\n",
+        "expected_output": "Added appointment #1: Breakfast meeting at 2024-05-10 08:00\nAdded appointment #2: Lunch with client at 2024-05-10 12:00\nAdded appointment #3: Conference call at 2024-05-11 15:00\n1. 08:00 - Breakfast meeting\n2. 12:00 - Lunch with client\n3. 15:00 - Conference call\nDeleted appointment #2\n",
+        "visibility": "visible"
+    }
+]

@@ -1,0 +1,53 @@
+{
+  "generation_logic": [
+    {
+      "type": "edge_cases",
+      "count": 5,
+      "args": {
+        "predefined_values": [
+          {"principal": 0.0, "rate": 0.0, "time": 0.0},
+          {"principal": 1.0, "rate": 1.0, "time": 1.0},
+          {"principal": 100.0, "rate": 5.0, "time": 2.0},
+          {"principal": 1000.0, "rate": 10.0, "time": 3.0},
+          {"principal": 50000.0, "rate": 15.5, "time": 10.0}
+        ]
+      }
+    },
+    {
+      "type": "small",
+      "count": 10,
+      "args": {
+        "principal_range": [1.0, 1000.0],
+        "rate_range": [0.1, 5.0],
+        "time_range": [0.1, 5.0]
+      }
+    },
+    {
+      "type": "medium",
+      "count": 10,
+      "args": {
+        "principal_range": [1000.0, 100000.0],
+        "rate_range": [5.0, 15.0],
+        "time_range": [5.0, 20.0]
+      }
+    },
+    {
+      "type": "large",
+      "count": 10,
+      "args": {
+        "principal_range": [100000.0, 1000000.0],
+        "rate_range": [15.0, 25.0],
+        "time_range": [20.0, 50.0]
+      }
+    },
+    {
+      "type": "extra_large",
+      "count": 10,
+      "args": {
+        "principal_range": [1000000.0, 10000000.0],
+        "rate_range": [25.0, 50.0],
+        "time_range": [50.0, 100.0]
+      }
+    }
+  ]
+}

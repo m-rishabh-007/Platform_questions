@@ -1,0 +1,32 @@
+Largest of Three Numbers
+
+## Problem Statement
+Write a function `findLargestOfThree` that takes three integers as input and returns the largest among them. The function should use if-else logic to determine the largest value.
+
+## Input Format
+- Three space-separated integers on a single line.
+
+## Output Format
+- A single integer: the largest of the three input numbers.
+
+## Constraints
+- All numbers are integers.
+- Numbers can be negative, zero, or positive.
+- The three numbers may be equal.
+
+## Sample Input 1
+```
+5 9 3
+```
+## Sample Output 1
+```
+9
+```
+## Sample Input 2
+```
+-7 -2 -15
+```
+## Sample Output 2
+```
+-2
+```

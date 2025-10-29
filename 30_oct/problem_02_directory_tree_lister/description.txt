@@ -1,0 +1,63 @@
+Directory Tree Lister
+
+Given a file system as a nested dictionary, print a visual tree. Directories (dict values) end with '/', files are None. Items at each level are alphabetically sorted with 2-space indentation per level.
+
+## Input Format
+- Single line: JSON string representing file system
+
+## Output Format
+- Multi-line tree with 2-space indentation per level
+
+## Constraints
+- Maximum depth: 10
+- Names: letters, numbers, underscores, periods only
+- Maximum 50 items per directory
+
+## Sample Input 1
+```
+{"docs": {"report.txt": null}, "src": {"main.py": null, "utils": {"helpers.py": null}}, "readme.md": null}
+```
+## Sample Output 1
+```
+docs/
+  report.txt
+readme.md
+src/
+  main.py
+  utils/
+    helpers.py
+```
+
+## Sample Input 2
+```
+{"file.txt": null}
+```
+## Sample Output 2
+```
+file.txt
+```
+
+## Sample Input 3
+```
+{"a": {"b": {"c.txt": null}}}
+```
+## Sample Output 3
+```
+a/
+  b/
+    c.txt
+```
+
+## Sample Input 4
+```
+{"config": {"app.json": null, "db.json": null}, "index.html": null, "styles": {"main.css": null}}
+```
+## Sample Output 4
+```
+config/
+  app.json
+  db.json
+index.html
+styles/
+  main.css
+```

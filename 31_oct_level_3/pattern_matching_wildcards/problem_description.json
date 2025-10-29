@@ -1,0 +1,21 @@
+{
+  "external_id": "13",
+  "title": "Pattern Matching with Wildcards",
+  "difficulty": "Hard",
+  "description": "Match a string against a pattern containing wildcards.\n\nWildcards:\n- `?` matches any single character\n- `*` matches any sequence of characters (including empty)\n\n## Input Format\n- First line: string s\n- Second line: pattern p\n\n## Output Format\n- \"true\" if pattern matches string, \"false\" otherwise",
+  "constraints": "- 0 \u2264 len(s) \u2264 2000\n- 0 \u2264 len(p) \u2264 2000\n- s contains lowercase letters only\n- p contains lowercase letters, `?`, and `*`",
+  "tags": [
+    "Dynamic Programming",
+    "String",
+    "Pattern Matching",
+    "DSA"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

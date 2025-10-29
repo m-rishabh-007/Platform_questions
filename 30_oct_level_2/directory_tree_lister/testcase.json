@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "problem_02_directory_tree_lister",
+        "problem_id": 2,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "{\"docs\": {\"report.txt\": null}, \"src\": {\"main.py\": null, \"utils\": {\"helpers.py\": null}}, \"readme.md\": null}\n",
+          "expected_output": "docs/\n  report.txt\nreadme.md\nsrc/\n  main.py\n  utils/\n    helpers.py",
+          "is_visible": true,
+          "input_size": 11
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "{\"file.txt\": null}\n",
+          "expected_output": "file.txt",
+          "is_visible": true,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "{\"a\": {\"b\": {\"c.txt\": null}}}\n",
+          "expected_output": "a/\n  b/\n    c.txt",
+          "is_visible": true,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "{\"config\": {\"app.json\": null, \"db.json\": null}, \"index.html\": null, \"styles\": {\"main.css\": null}}\n",
+          "expected_output": "config/\n  app.json\n  db.json\nindex.html\nstyles/\n  main.css",
+          "is_visible": true,
+          "input_size": 10
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "{\"a.txt\": null, \"b.txt\": null}",
+          "expected_output": "a.txt\nb.txt",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "{\"nested\": {\"deep\": {\"file.txt\": null}}}",
+          "expected_output": "nested/\n  deep/\n    file.txt",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "{}",
+          "expected_output": "",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "{\"nested\": {\"deep\": {\"file.txt\": null}}}",
+          "expected_output": "nested/\n  deep/\n    file.txt",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "{\"nested\": {\"deep\": {\"file.txt\": null}}}",
+          "expected_output": "nested/\n  deep/\n    file.txt",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "{\"1hju6.py\": null, \"yaqd_rz\": null, \"4vfw8v5vqr\": null, \"qobgzylo_mlj.txt\": null}",
+          "expected_output": "1hju6.py\n4vfw8v5vqr\nqobgzylo_mlj.txt\nyaqd_rz",
+          "is_visible": false,
+          "input_size": 8
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "problem_02_directory_tree_lister",
+        "problem_id": 2,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "{\"docs\": {\"report.txt\": null}, \"src\": {\"main.py\": null, \"utils\": {\"helpers.py\": null}}, \"readme.md\": null}\n",
+          "expected_output": "docs/\n  report.txt\nreadme.md\nsrc/\n  main.py\n  utils/\n    helpers.py",
+          "is_visible": true,
+          "input_size": 11
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "{\"file.txt\": null}\n",
+          "expected_output": "file.txt",
+          "is_visible": true,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "{\"a\": {\"b\": {\"c.txt\": null}}}\n",
+          "expected_output": "a/\n  b/\n    c.txt",
+          "is_visible": true,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "{\"config\": {\"app.json\": null, \"db.json\": null}, \"index.html\": null, \"styles\": {\"main.css\": null}}\n",
+          "expected_output": "config/\n  app.json\n  db.json\nindex.html\nstyles/\n  main.css",
+          "is_visible": true,
+          "input_size": 10
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "{\"a.txt\": null, \"b.txt\": null}",
+          "expected_output": "a.txt\nb.txt",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "{\"a.txt\": null, \"b.txt\": null}",
+          "expected_output": "a.txt\nb.txt",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "{\"file.txt\": null}",
+          "expected_output": "file.txt",
+          "is_visible": false,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "{\"a.txt\": null, \"b.txt\": null}",
+          "expected_output": "a.txt\nb.txt",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "{\"file.txt\": null}",
+          "expected_output": "file.txt",
+          "is_visible": false,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "{\"a6e9wudw98i9.py\": null, \"ee8qvwta\": null, \"97n0.json\": null, \"k9zxakfh7_h\": null}",
+          "expected_output": "97n0.json\na6e9wudw98i9.py\nee8qvwta\nk9zxakfh7_h",
+          "is_visible": false,
+          "input_size": 8
+        }
+      ]
+    }
+  ]
+}

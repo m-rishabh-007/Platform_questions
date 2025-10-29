@@ -1,0 +1,22 @@
+{
+  "external_id": "9",
+  "title": "Connected Components",
+  "difficulty": "Medium",
+  "description": "Count the number of connected components in an undirected graph.\n\nA connected component is a maximal set of vertices where every pair is connected by a path.\n\n## Input Format\n- First line: n m (vertices, edges)\n- Next m lines: u v (edge from u to v, 0-indexed)\n\n## Output Format\n- Single integer: number of connected components",
+  "constraints": "- 1 \u2264 n \u2264 100,000\n- 0 \u2264 m \u2264 200,000\n- 0 \u2264 u, v < n",
+  "tags": [
+    "Graph",
+    "DFS",
+    "BFS",
+    "Union-Find",
+    "DSA"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

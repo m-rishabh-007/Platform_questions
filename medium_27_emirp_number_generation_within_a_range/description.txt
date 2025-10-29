@@ -1,0 +1,14 @@
+# Emirp Number Generation within a Range
+
+## Problem Statement
+Write a function `find_emirps_in_range` that finds all Emirp numbers up to a given limit. An Emirp is a prime number that produces a different prime number when its decimal digits are reversed. Exclude palindromic primes (numbers that read the same forwards and backwards like 11, 101).
+
+## Input Format
+- A single integer representing the upper limit (inclusive)
+
+## Output Format
+- Space-separated integers representing all Emirp numbers up to the limit, sorted in ascending order
+- If no Emirps exist, output an empty line
+
+## Constraints
+- 1 ≤ limit ≤ 10000

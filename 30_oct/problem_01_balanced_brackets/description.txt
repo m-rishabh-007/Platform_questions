@@ -1,0 +1,51 @@
+Balanced Brackets
+
+Determine if a string containing brackets ()[]{}  is valid:
+1. Open brackets must be closed by the same type
+2. Open brackets must be closed in correct order
+3. Every close bracket has a corresponding open bracket
+
+## Input Format
+- Single line: string containing only ()[]{}
+
+## Output Format
+- "true" if balanced, "false" otherwise
+
+## Constraints
+- 0 <= string length <= 10000
+
+## Sample Input 1
+```
+()[]{}
+```
+## Sample Output 1
+```
+true
+```
+
+## Sample Input 2
+```
+([)]
+```
+## Sample Output 2
+```
+false
+```
+
+## Sample Input 3
+```
+{[]}
+```
+## Sample Output 3
+```
+true
+```
+
+## Sample Input 4
+```
+
+```
+## Sample Output 4
+```
+true
+```

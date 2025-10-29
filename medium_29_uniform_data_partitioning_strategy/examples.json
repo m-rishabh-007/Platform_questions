@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "3\n24 36 60",
+    "expected_output": "12 10"
+  },
+  {
+    "stdin": "2\n17 23",
+    "expected_output": "1 40"
+  },
+  {
+    "stdin": "4\n50 50 50 50",
+    "expected_output": "50 4"
+  },
+  {
+    "stdin": "1\n42",
+    "expected_output": "42 1"
+  },
+  {
+    "stdin": "5\n12 18 24 30 36",
+    "expected_output": "6 20"
+  }
+]

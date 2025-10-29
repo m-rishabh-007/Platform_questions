@@ -1,0 +1,20 @@
+{
+  "external_id": "6",
+  "title": "Calendar Scheduler",
+  "difficulty": "Medium",
+  "description": "Build a multi-command calendar system that manages appointments.\n\nCommands:\n- ADD <date> <time> <description>: Add appointment, return ID and confirmation\n- LIST <date>: List all appointments for date, sorted by time\n- DELETE <id>: Delete appointment by ID\n- EXIT: Terminate program\n\n## Input Format\n- First line: N (number of commands)\n- Next N lines: Commands (ADD/LIST/DELETE)\n- Final line: EXIT\n\n## Output Format\n- For ADD: \"Added appointment #<id>: <description> at <date> <time>\"\n- For LIST: Numbered list of appointments with time and description\n- For DELETE: \"Deleted appointment #<id>\" or error if not found",
+  "constraints": "- 1 \u2264 N \u2264 1000\n- Valid dates: YYYY-MM-DD format\n- Valid times: HH:MM format (24-hour)\n- 1 \u2264 description length \u2264 100",
+  "tags": [
+    "OOP",
+    "Data Structures",
+    "System Design"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "problem_03_matrix_spiral_traversal",
+        "problem_id": 3,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "3 4\n1 2 3 4\n5 6 7 8\n9 10 11 12\n",
+          "expected_output": "1 2 3 4 8 12 11 10 9 5 6 7",
+          "is_visible": true,
+          "input_size": 6
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "1 1\n5\n",
+          "expected_output": "5",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "2 2\n1 2\n3 4\n",
+          "expected_output": "1 2 4 3",
+          "is_visible": true,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "3 3\n1 2 3\n4 5 6\n7 8 9\n",
+          "expected_output": "1 2 3 6 9 8 7 4 5",
+          "is_visible": true,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "1 1\n-25",
+          "expected_output": "-25",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "1 1\n-474",
+          "expected_output": "-474",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "2 2\n577 880\n389 -214",
+          "expected_output": "577 880 -214 389",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "3 3\n-392 82 -284\n381 -837 -731\n866 -746 991",
+          "expected_output": "-392 82 -284 -731 991 -746 866 381 -837",
+          "is_visible": false,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "7 1\n-219\n-343\n-977\n-477\n-363\n-580\n402",
+          "expected_output": "-219 -343 -977 -477 -363 -580 402",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "5 5\n-430 786 143 -244 -863\n-681 772 -823 569 781\n315 973 220 -555 625\n-405 -820 671 410 -189\n-356 -716 908 325 406",
+          "expected_output": "-430 786 143 -244 -863 781 625 -189 406 325 908 -716 -356 -405 315 -681 772 -823 569 -555 410 671 -820 973 220",
+          "is_visible": false,
+          "input_size": 7
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "problem_03_matrix_spiral_traversal",
+        "problem_id": 3,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "3 4\n1 2 3 4\n5 6 7 8\n9 10 11 12\n",
+          "expected_output": "1 2 3 4 8 12 11 10 9 5 6 7",
+          "is_visible": true,
+          "input_size": 6
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "1 1\n5\n",
+          "expected_output": "5",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "2 2\n1 2\n3 4\n",
+          "expected_output": "1 2 4 3",
+          "is_visible": true,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "3 3\n1 2 3\n4 5 6\n7 8 9\n",
+          "expected_output": "1 2 3 6 9 8 7 4 5",
+          "is_visible": true,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "1 7\n-500 782 -231 -870 -64 65 21",
+          "expected_output": "-500 782 -231 -870 -64 65 21",
+          "is_visible": false,
+          "input_size": 9
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "1 6\n350 746 -655 -559 782 401",
+          "expected_output": "350 746 -655 -559 782 401",
+          "is_visible": false,
+          "input_size": 8
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "1 3\n-995 -169 902",
+          "expected_output": "-995 -169 902",
+          "is_visible": false,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "1 1\n-390",
+          "expected_output": "-390",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "1 1\n-70",
+          "expected_output": "-70",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "5 4\n-515 -680 229 672\n865 509 272 781\n726 -44 386 -405\n-459 514 354 -66\n-271 -998 286 -83",
+          "expected_output": "-515 -680 229 672 781 -405 -66 -83 286 -998 -271 -459 726 865 509 272 386 354 514 -44",
+          "is_visible": false,
+          "input_size": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "description": "Basic vending machine operation with successful purchases",
+        "stdin": "3\nCoke 50 5\nChips 30 3\nCandy 25 2\n4\nCoke 60\nChips 30\nCandy 50\nWater 100",
+        "expected_output": "SUCCESS Coke 10\nSUCCESS Chips 0\nSUCCESS Candy 25\nPRODUCT_NOT_FOUND 100"
+    },
+    {
+        "description": "Testing insufficient funds and out of stock scenarios",
+        "stdin": "2\nSoda 75 1\nSnack 40 0\n3\nSoda 50\nSnack 50\nSoda 100",
+        "expected_output": "INSUFFICIENT_FUNDS 50\nOUT_OF_STOCK 50\nSUCCESS Soda 25"
+    },
+    {
+        "description": "Complex scenario with multiple product interactions",
+        "stdin": "4\nCoffee 150 2\nTea 100 3\nJuice 80 1\nWater 25 10\n6\nCoffee 200\nTea 100\nJuice 80\nTea 120\nWater 30\nCoffee 150",
+        "expected_output": "SUCCESS Coffee 50\nSUCCESS Tea 0\nSUCCESS Juice 0\nSUCCESS Tea 20\nSUCCESS Water 5\nSUCCESS Coffee 0"
+    },
+    {
+        "description": "Edge case with exact change and product depletion",
+        "stdin": "2\nGum 15 1\nMint 20 1\n4\nGum 15\nGum 20\nMint 20\nMint 25",
+        "expected_output": "SUCCESS Gum 0\nOUT_OF_STOCK 20\nSUCCESS Mint 0\nOUT_OF_STOCK 25"
+    },
+    {
+        "description": "Large inventory with mixed successful and failed purchases",
+        "stdin": "5\nA 100 3\nB 250 2\nC 50 5\nD 75 1\nE 300 4\n8\nA 150\nF 200\nB 250\nC 25\nD 100\nE 350\nA 100\nB 300",
+        "expected_output": "SUCCESS A 50\nPRODUCT_NOT_FOUND 200\nSUCCESS B 0\nINSUFFICIENT_FUNDS 25\nSUCCESS D 25\nSUCCESS E 50\nSUCCESS A 0\nSUCCESS B 50"
+    }
+]

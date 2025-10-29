@@ -1,0 +1,8 @@
+{
+  "generation_logic": [
+    {"type": "edge_cases", "count": 5, "args": {}},
+    {"type": "small", "count": 10, "args": {}},
+    {"type": "medium", "count": 10, "args": {}},
+    {"type": "large", "count": 10, "args": {}}
+  ]
+}

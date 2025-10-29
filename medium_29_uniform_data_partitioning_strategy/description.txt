@@ -1,0 +1,17 @@
+# Uniform Data Partitioning Strategy
+
+## Problem Statement
+Write a function `calculate_partition_plan` that determines the optimal uniform partition size for data volumes and calculates the total number of partitions needed. The optimal partition size is the Greatest Common Divisor (GCD) of all volume sizes, ensuring no data remainder.
+
+## Input Format
+- First line: Integer n (number of data volumes)
+- Second line: n space-separated integers representing data volume sizes
+
+## Output Format
+- Two space-separated integers: partition_size total_partitions
+- partition_size: GCD of all volumes
+- total_partitions: Sum of (volume_size / partition_size) for all volumes
+
+## Constraints
+- 1 ≤ n ≤ 1000
+- 1 ≤ volume_size ≤ 10^6

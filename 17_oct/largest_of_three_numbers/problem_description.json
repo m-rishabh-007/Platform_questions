@@ -1,0 +1,18 @@
+{
+  "external_id": "31",
+  "title": "Largest Of Three Numbers",
+  "difficulty": "Easy",
+  "description": "## Problem Statement\nWrite a function `findLargestOfThree` that takes three integers as input and returns the largest among them. The function should use if-else logic to determine the largest value.\n\n## Input Format\n- Three space-separated integers on a single line.\n\n## Output Format\n- A single integer: the largest of the three input numbers.",
+  "constraints": "- All numbers are integers.\n- Numbers can be negative, zero, or positive.\n- The three numbers may be equal.",
+  "tags": [
+    "Problem Solving"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

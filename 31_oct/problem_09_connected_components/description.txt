@@ -1,0 +1,20 @@
+Connected Components in Undirected Graph
+
+Given an undirected graph with n nodes and m edges, find the number of connected components.
+
+A connected component is a maximal set of nodes where every pair of nodes is connected by some path.
+
+## Input Format
+- First line: Two integers n and m (number of nodes and edges)
+- Next m lines: Each contains two integers u and v representing an edge between nodes u and v
+- Nodes are numbered from 0 to n-1
+
+## Output Format
+- Single integer: the number of connected components in the graph
+
+## Constraints
+- 1 ≤ n ≤ 1000
+- 0 ≤ m ≤ 5000
+- 0 ≤ u, v < n
+- No self-loops (u ≠ v)
+- No duplicate edges

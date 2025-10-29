@@ -1,0 +1,15 @@
+# Generalized k-nacci Sequence Summation
+
+## Problem Statement
+Write a function `sum_k_nacci_sequence` that calculates the sum of the first n+1 terms of a generalized k-nacci sequence. In a k-nacci sequence, each term is the sum of the previous k terms, with the first k terms all equal to 1.
+
+## Input Format
+- First line: Integer n (index of last term to include)
+- Second line: Integer k (number of previous terms to sum)
+
+## Output Format
+- Single integer representing the sum of terms from index 0 to n (inclusive)
+
+## Constraints
+- 0 ≤ n ≤ 1000
+- 2 ≤ k ≤ 50

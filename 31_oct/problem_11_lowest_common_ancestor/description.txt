@@ -1,0 +1,23 @@
+Lowest Common Ancestor in Binary Tree
+
+Given a binary tree and two nodes p and q, find their lowest common ancestor (LCA).
+
+The LCA of two nodes p and q is defined as the lowest node in the tree that has both p and q as descendants (where we allow a node to be a descendant of itself).
+
+## Input Format
+- First line: Integer n (number of nodes in tree, 1 ≤ n ≤ 1000)
+- Next n lines: Each contains three integers: node_id parent_id value
+  - node_id: ID of the current node (0 to n-1)
+  - parent_id: ID of parent node (-1 for root)
+  - value: node value
+- Last line: Two integers p and q (node values to find LCA for)
+
+## Output Format
+- Single integer: the value of the LCA node
+
+## Constraints
+- 1 ≤ n ≤ 1000
+- All node values are unique
+- -10^9 ≤ value ≤ 10^9
+- p and q will always exist in the tree
+- p ≠ q

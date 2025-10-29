@@ -1,0 +1,27 @@
+[
+  {
+    "stdin": "ADD BOOK \"Dune\" \"Frank Herbert\"\nADD MEMBER \"Bob\" 101\nCHECKOUT 101 \"Dune\"\nCHECKOUT 101 \"Dune\"\nRETURN \"Dune\"\nEXIT\n",
+    "expected_output": "Book \"Dune\" added.\nMember \"Bob\" registered.\nCheckout successful.\nError: Book not available.\nReturn successful.\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "ADD BOOK \"1984\" \"George Orwell\"\nADD MEMBER \"Alice\" 200\nCHECKOUT 999 \"1984\"\nCHECKOUT 200 \"Unknown\"\nEXIT\n",
+    "expected_output": "Book \"1984\" added.\nMember \"Alice\" registered.\nError: Member not found.\nError: Book not found.\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "RETURN \"NonExistent\"\nADD BOOK \"Brave New World\" \"Aldous Huxley\"\nRETURN \"Brave New World\"\nEXIT\n",
+    "expected_output": "Error: Book not in records or was not checked out.\nBook \"Brave New World\" added.\nError: Book not in records or was not checked out.\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "ADD BOOK \"The Hobbit\" \"J.R.R. Tolkien\"\nADD MEMBER \"Charlie\" 300\nADD MEMBER \"Diana\" 400\nCHECKOUT 300 \"The Hobbit\"\nCHECKOUT 400 \"The Hobbit\"\nRETURN \"The Hobbit\"\nCHECKOUT 400 \"The Hobbit\"\nEXIT\n",
+    "expected_output": "Book \"The Hobbit\" added.\nMember \"Charlie\" registered.\nMember \"Diana\" registered.\nCheckout successful.\nError: Book not available.\nReturn successful.\nCheckout successful.\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "ADD BOOK \"Animal Farm\" \"George Orwell\"\nADD BOOK \"Animal Farm\" \"George Orwell\"\nADD MEMBER \"Eve\" 500\nADD MEMBER \"Eve\" 500\nEXIT\n",
+    "expected_output": "Book \"Animal Farm\" added.\nMember \"Eve\" registered.\n",
+    "visibility": "visible"
+  }
+]

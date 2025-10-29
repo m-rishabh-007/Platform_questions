@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "hello world",
+    "expected_output": "Hello World"
+  },
+  {
+    "stdin": "python programming is fun",
+    "expected_output": "Python Programming Is Fun"
+  },
+  {
+    "stdin": "a",
+    "expected_output": "A"
+  },
+  {
+    "stdin": "the quick brown fox",
+    "expected_output": "The Quick Brown Fox"
+  },
+  {
+    "stdin": "welcome to coding challenges",
+    "expected_output": "Welcome To Coding Challenges"
+  }
+]

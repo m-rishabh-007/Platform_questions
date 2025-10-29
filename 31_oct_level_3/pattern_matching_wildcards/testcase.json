@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "problem_13_pattern_matching_wildcards",
+        "problem_id": 13,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 5,
+        "hidden_cases": 5,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "aa\na\n",
+          "expected_output": "false",
+          "is_visible": true,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "aa\n*\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "cb\n?a\n",
+          "expected_output": "false",
+          "is_visible": true,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "adceb\n*a*b\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "acdcb\na*c?b\n",
+          "expected_output": "false",
+          "is_visible": true,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "udfew\n??????",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "rxaccggfoa\n*****",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 10
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "nemqurz\n???????",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 7
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "bdjnizy\n***",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 7
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "vgsotyohf\n?????????",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 9
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "problem_13_pattern_matching_wildcards",
+        "problem_id": 13,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 5,
+        "hidden_cases": 5,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "aa\na\n",
+          "expected_output": "false",
+          "is_visible": true,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "aa\n*\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "cb\n?a\n",
+          "expected_output": "false",
+          "is_visible": true,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "adceb\n*a*b\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "acdcb\na*c?b\n",
+          "expected_output": "false",
+          "is_visible": true,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "zk\n??",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 2
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "qtvcrhgpit\n??????????",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 10
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "***",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "ipnos",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "*",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    }
+  ]
+}

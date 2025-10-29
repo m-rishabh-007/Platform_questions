@@ -1,0 +1,32 @@
+{
+    "generation_logic": [
+        {
+            "type": "boundary_values",
+            "count": 5,
+            "args": {
+                "description": "Test with minimum and maximum constraints"
+            }
+        },
+        {
+            "type": "edge_cases",
+            "count": 6,
+            "args": {
+                "description": "Test empty inventory, out of stock, insufficient funds"
+            }
+        },
+        {
+            "type": "random_valid",
+            "count": 6,
+            "args": {
+                "description": "Random valid test cases"
+            }
+        },
+        {
+            "type": "stress_test",
+            "count": 3,
+            "args": {
+                "description": "Large inventory with many requests"
+            }
+        }
+    ]
+}

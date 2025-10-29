@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "student_class_display_details",
+        "problem_id": 34,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "Alice 101 89.5\n",
+          "expected_output": "Name: Alice, Roll: 101, Marks: 89.5",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "Bob 202 0.0\n",
+          "expected_output": "Name: Bob, Roll: 202, Marks: 0.0",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "A 0 0.0\n",
+          "expected_output": "Name: A, Roll: 0, Marks: 0.0",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "Z 99999 -100.5\n",
+          "expected_output": "Name: Z, Roll: 99999, Marks: -100.5",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "A 0 0.0",
+          "expected_output": "Name: A, Roll: 0, Marks: 0.0",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "A 0 0.0",
+          "expected_output": "Name: A, Roll: 0, Marks: 0.0",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "Alice 101 89.5",
+          "expected_output": "Name: Alice, Roll: 101, Marks: 89.5",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "Test 1 100.0",
+          "expected_output": "Name: Test, Roll: 1, Marks: 100.0",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "A 0 0.0",
+          "expected_output": "Name: A, Roll: 0, Marks: 0.0",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "zKIswEh 9 14.1",
+          "expected_output": "Name: zKIswEh, Roll: 9, Marks: 14.1",
+          "is_visible": false,
+          "input_size": 3
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "student_class_display_details",
+        "problem_id": 34,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "Alice 101 89.5\n",
+          "expected_output": "Name: Alice, Roll: 101, Marks: 89.500000",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "Bob 202 0.0\n",
+          "expected_output": "Name: Bob, Roll: 202, Marks: 0.000000",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "A 0 0.0\n",
+          "expected_output": "Name: A, Roll: 0, Marks: 0.000000",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "Z 99999 -100.5\n",
+          "expected_output": "Name: Z, Roll: 99999, Marks: -100.500000",
+          "is_visible": true,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "Test 1 100.0",
+          "expected_output": "Name: Test, Roll: 1, Marks: 100.000000",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "Alice 101 89.5",
+          "expected_output": "Name: Alice, Roll: 101, Marks: 89.500000",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "Bob 202 0.0",
+          "expected_output": "Name: Bob, Roll: 202, Marks: 0.000000",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "Bob 202 0.0",
+          "expected_output": "Name: Bob, Roll: 202, Marks: 0.000000",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "Bob 202 0.0",
+          "expected_output": "Name: Bob, Roll: 202, Marks: 0.000000",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "hBrosL 5 46.2",
+          "expected_output": "Name: hBrosL, Roll: 5, Marks: 46.200001",
+          "is_visible": false,
+          "input_size": 3
+        }
+      ]
+    }
+  ]
+}

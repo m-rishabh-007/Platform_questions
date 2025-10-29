@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "problem_06_calendar_scheduler",
+        "problem_id": 6,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 3,
+        "hidden_cases": 7,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "5\nADD 2024-03-15 09:00 Team meeting\nADD 2024-03-15 14:30 Doctor appointment\nLIST 2024-03-15\nDELETE 1\nLIST 2024-03-15\n",
+          "expected_output": "Added appointment #1: Team meeting at 2024-03-15 09:00\nAdded appointment #2: Doctor appointment at 2024-03-15 14:30\n1. 09:00 - Team meeting\n2. 14:30 - Doctor appointment\nDeleted appointment #1\n2. 14:30 - Doctor appointment",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "4\nADD 2024-04-01 10:00 Project review\nLIST 2024-04-01\nLIST 2024-04-02\nDELETE 5\n",
+          "expected_output": "Added appointment #1: Project review at 2024-04-01 10:00\n1. 10:00 - Project review\nNo appointments for 2024-04-02\nAppointment #5 not found",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "6\nADD 2024-05-10 08:00 Breakfast meeting\nADD 2024-05-10 12:00 Lunch with client\nADD 2024-05-11 15:00 Conference call\nLIST 2024-05-10\nLIST 2024-05-11\nDELETE 2\n",
+          "expected_output": "Added appointment #1: Breakfast meeting at 2024-05-10 08:00\nAdded appointment #2: Lunch with client at 2024-05-10 12:00\nAdded appointment #3: Conference call at 2024-05-11 15:00\n1. 08:00 - Breakfast meeting\n2. 12:00 - Lunch with client\n3. 15:00 - Conference call\nDeleted appointment #2",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "1\nLIST 2024-01-01",
+          "expected_output": "No appointments for 2024-01-01",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "2\nADD 2024-02-14 14:00 Valentine lunch\nDELETE 1",
+          "expected_output": "Added appointment #1: Valentine lunch at 2024-02-14 14:00\nDeleted appointment #1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "1\nADD 2024-01-01 09:00 New Year meeting",
+          "expected_output": "Added appointment #1: New Year meeting at 2024-01-01 09:00",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "2\nADD 2024-02-14 14:00 Valentine lunch\nDELETE 1",
+          "expected_output": "Added appointment #1: Valentine lunch at 2024-02-14 14:00\nDeleted appointment #1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "1\nLIST 2024-01-01",
+          "expected_output": "No appointments for 2024-01-01",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "7\nADD 2024-01-08 12:45 Discussion\nDELETE 2\nADD 2024-01-10 13:30 Discussion\nLIST 2024-01-08\nADD 2024-01-02 12:30 Presentation\nDELETE 2\nADD 2024-01-11 11:15 Meeting",
+          "expected_output": "Added appointment #1: Discussion at 2024-01-08 12:45\nAppointment #2 not found\nAdded appointment #2: Discussion at 2024-01-10 13:30\n1. 12:45 - Discussion\nAdded appointment #3: Presentation at 2024-01-02 12:30\nDeleted appointment #2\nAdded appointment #4: Meeting at 2024-01-11 11:15",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "4\nLIST 2024-01-05\nADD 2024-01-08 11:15 Meeting\nLIST 2024-01-13\nADD 2024-01-14 11:15 Discussion",
+          "expected_output": "No appointments for 2024-01-05\nAdded appointment #1: Meeting at 2024-01-08 11:15\nNo appointments for 2024-01-13\nAdded appointment #2: Discussion at 2024-01-14 11:15",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "problem_06_calendar_scheduler",
+        "problem_id": 6,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 3,
+        "hidden_cases": 7,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "5\nADD 2024-03-15 09:00 Team meeting\nADD 2024-03-15 14:30 Doctor appointment\nLIST 2024-03-15\nDELETE 1\nLIST 2024-03-15\n",
+          "expected_output": "Added appointment #1: Team meeting at 2024-03-15 09:00\nAdded appointment #2: Doctor appointment at 2024-03-15 14:30\n1. 09:00 - Team meeting\n2. 14:30 - Doctor appointment\nDeleted appointment #1\n2. 14:30 - Doctor appointment",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "4\nADD 2024-04-01 10:00 Project review\nLIST 2024-04-01\nLIST 2024-04-02\nDELETE 5\n",
+          "expected_output": "Added appointment #1: Project review at 2024-04-01 10:00\n1. 10:00 - Project review\nNo appointments for 2024-04-02\nAppointment #5 not found",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "6\nADD 2024-05-10 08:00 Breakfast meeting\nADD 2024-05-10 12:00 Lunch with client\nADD 2024-05-11 15:00 Conference call\nLIST 2024-05-10\nLIST 2024-05-11\nDELETE 2\n",
+          "expected_output": "Added appointment #1: Breakfast meeting at 2024-05-10 08:00\nAdded appointment #2: Lunch with client at 2024-05-10 12:00\nAdded appointment #3: Conference call at 2024-05-11 15:00\n1. 08:00 - Breakfast meeting\n2. 12:00 - Lunch with client\n3. 15:00 - Conference call\nDeleted appointment #2",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "2\nADD 2024-02-14 14:00 Valentine lunch\nDELETE 1",
+          "expected_output": "Added appointment #1: Valentine lunch at 2024-02-14 14:00\nDeleted appointment #1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "1\nLIST 2024-01-01",
+          "expected_output": "No appointments for 2024-01-01",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "1\nADD 2024-01-01 09:00 New Year meeting",
+          "expected_output": "Added appointment #1: New Year meeting at 2024-01-01 09:00",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "2\nADD 2024-02-14 14:00 Valentine lunch\nDELETE 1",
+          "expected_output": "Added appointment #1: Valentine lunch at 2024-02-14 14:00\nDeleted appointment #1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "2\nADD 2024-02-14 14:00 Valentine lunch\nDELETE 1",
+          "expected_output": "Added appointment #1: Valentine lunch at 2024-02-14 14:00\nDeleted appointment #1",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "4\nLIST 2024-01-03\nADD 2024-01-24 17:45 Discussion\nLIST 2024-01-09\nDELETE 5",
+          "expected_output": "No appointments for 2024-01-03\nAdded appointment #1: Discussion at 2024-01-24 17:45\nNo appointments for 2024-01-09\nAppointment #5 not found",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "6\nLIST 2024-01-22\nADD 2024-01-11 08:00 Discussion\nLIST 2024-01-11\nDELETE 3\nLIST 2024-01-29\nADD 2024-01-05 10:30 Call",
+          "expected_output": "No appointments for 2024-01-22\nAdded appointment #1: Discussion at 2024-01-11 08:00\n1. 08:00 - Discussion\nAppointment #3 not found\nNo appointments for 2024-01-29\nAdded appointment #2: Call at 2024-01-05 10:30",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    }
+  ]
+}

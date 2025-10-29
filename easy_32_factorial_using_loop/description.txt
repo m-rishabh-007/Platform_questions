@@ -1,0 +1,30 @@
+Factorial Using Loop
+
+## Problem Statement
+Write a function `computeFactorial` that takes a single integer n and returns its factorial using a loop (not recursion).
+
+## Input Format
+- A single integer n (0 ≤ n ≤ 20)
+
+## Output Format
+- A single integer: the factorial of n
+
+## Constraints
+- 0 ≤ n ≤ 20
+
+## Sample Input 1
+```
+5
+```
+## Sample Output 1
+```
+120
+```
+## Sample Input 2
+```
+0
+```
+## Sample Output 2
+```
+1
+```

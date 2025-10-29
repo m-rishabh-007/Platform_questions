@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "()[]{}\n",
+    "expected_output": "true\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "([)]\n",
+    "expected_output": "false\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "{[]}\n",
+    "expected_output": "true\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "\n",
+    "expected_output": "true\n",
+    "visibility": "visible"
+  }
+]

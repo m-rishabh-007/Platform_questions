@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "{sample_input_1}\n",
+    "expected_output": "{sample_output_1}\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "{sample_input_2}\n",
+    "expected_output": "{sample_output_2}\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "{sample_input_3}\n",
+    "expected_output": "{sample_output_3}\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "{sample_input_4}\n",
+    "expected_output": "{sample_output_4}\n",
+    "visibility": "visible"
+  }
+]

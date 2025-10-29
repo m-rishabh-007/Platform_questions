@@ -1,0 +1,21 @@
+{
+  "external_id": "12",
+  "title": "Longest Increasing Subsequence with Constraints",
+  "difficulty": "Medium",
+  "description": "Find the length of the longest strictly increasing subsequence where consecutive elements differ by at most k.\n\n## Input Format\n- First line: n k (array size, max difference)\n- Second line: n integers (array elements)\n\n## Output Format\n- Single integer: length of longest increasing subsequence satisfying constraint",
+  "constraints": "- 1 \u2264 n \u2264 2000\n- 1 \u2264 k \u2264 10^9\n- -10^9 \u2264 array[i] \u2264 10^9",
+  "tags": [
+    "Dynamic Programming",
+    "DP",
+    "LIS",
+    "DSA"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

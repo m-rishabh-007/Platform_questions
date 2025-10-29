@@ -1,0 +1,18 @@
+{
+  "external_id": "35",
+  "title": "Swap Two Numbers By Reference",
+  "difficulty": "Easy",
+  "description": "## Problem Statement\nWrite a function `swapNumbers` that takes two integers and swaps their values using call by reference.\n\n## Input Format\n- Two space-separated integers on a single line.\n\n## Output Format\n- Two space-separated integers: the swapped values.",
+  "constraints": "- Both numbers are integers.\n- Numbers can be negative, zero, or positive.",
+  "tags": [
+    "Problem Solving"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

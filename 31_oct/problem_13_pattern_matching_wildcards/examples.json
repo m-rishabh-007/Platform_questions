@@ -1,0 +1,27 @@
+[
+    {
+        "stdin": "aa\na\n",
+        "expected_output": "false\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "aa\n*\n",
+        "expected_output": "true\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "cb\n?a\n",
+        "expected_output": "false\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "adceb\n*a*b\n",
+        "expected_output": "true\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "acdcb\na*c?b\n",
+        "expected_output": "false\n",
+        "visibility": "visible"
+    }
+]

@@ -1,0 +1,32 @@
+Student Class: Display Details
+
+## Problem Statement
+Write a function `getStudentDetails` that takes a student's name (string), roll number (integer), and marks (float) as input, and returns a formatted string displaying all details.
+
+## Input Format
+- A single line containing: name (string), roll (integer), marks (float), separated by spaces.
+
+## Output Format
+- A single line: `Name: <name>, Roll: <roll>, Marks: <marks>`
+
+## Constraints
+- Name is a non-empty string (no spaces).
+- Roll is an integer.
+- Marks is a float (can be negative, zero, or positive).
+
+## Sample Input 1
+```
+Alice 101 89.5
+```
+## Sample Output 1
+```
+Name: Alice, Roll: 101, Marks: 89.5
+```
+## Sample Input 2
+```
+Bob 202 0.0
+```
+## Sample Output 2
+```
+Name: Bob, Roll: 202, Marks: 0.0
+```

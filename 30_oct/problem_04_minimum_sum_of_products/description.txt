@@ -1,0 +1,57 @@
+Minimum Sum of Products
+
+Given two arrays A and B where len(B) <= len(A), select a subset of A with the same size as B.
+Pair elements from the subset with B to minimize the sum of products.
+
+Strategy: Sort both arrays. Select the smallest elements from A. Pair smallest from A-subset with largest from B.
+
+## Input Format
+- Line 1: Space-separated integers for array A
+- Line 2: Space-separated integers for array B
+
+## Output Format
+- Single integer: minimum possible sum of products
+
+## Constraints
+- 1 <= len(B) <= len(A) <= 1000
+- -1000 <= array values <= 1000
+
+## Sample Input 1
+```
+-10 -5 0 8 12
+-20 15
+```
+## Sample Output 1
+```
+-50
+```
+
+## Sample Input 2
+```
+1 2 3
+4 5
+```
+## Sample Output 2
+```
+13
+```
+
+## Sample Input 3
+```
+5
+10
+```
+## Sample Output 3
+```
+50
+```
+
+## Sample Input 4
+```
+-5 -3 1 4 7
+2 6 8
+```
+## Sample Output 4
+```
+-27
+```

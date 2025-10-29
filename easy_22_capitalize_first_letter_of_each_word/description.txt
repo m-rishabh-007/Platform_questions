@@ -1,0 +1,67 @@
+# Capitalize First Letter of Each Word
+
+## Problem Statement
+Write a function `capitalizeWords` that takes a sentence and returns a new sentence where the first letter of each word is capitalized.
+
+## Input Format
+- A single line containing a sentence (words separated by spaces)
+
+## Output Format
+- Print the sentence with the first letter of each word capitalized
+
+## Constraints
+- 1 ≤ sentence length ≤ 1000
+- Words contain only alphabetic characters
+
+## Sample Input 1
+```
+hello world
+```
+
+## Sample Output 1
+```
+Hello World
+```
+
+## Sample Input 2
+```
+python programming is fun
+```
+
+## Sample Output 2
+```
+Python Programming Is Fun
+```
+
+## Sample Input 3
+```
+a
+```
+
+## Sample Output 3
+```
+A
+```
+
+## Sample Input 4
+```
+the quick brown fox
+```
+
+## Sample Output 4
+```
+The Quick Brown Fox
+```
+
+## Sample Input 5
+```
+welcome to coding challenges
+```
+
+## Sample Output 5
+```
+Welcome To Coding Challenges
+```
+
+## Concepts Tested
+String splitting, string indexing/slicing, capitalization, joining a list of strings.

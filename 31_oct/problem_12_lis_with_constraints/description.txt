@@ -1,0 +1,21 @@
+Longest Increasing Subsequence with Constraints
+
+Find the length of the longest strictly increasing subsequence in an array, with additional constraints.
+
+A subsequence is obtained by deleting some (possibly zero) elements without changing the order of remaining elements.
+
+**Constraint:** The difference between consecutive elements in the subsequence must be at most k.
+
+## Input Format
+- First line: Two integers n and k
+  - n: array size (1 ≤ n ≤ 2000)
+  - k: maximum allowed difference (1 ≤ k ≤ 10^9)
+- Second line: n integers representing the array
+
+## Output Format
+- Single integer: length of the longest increasing subsequence satisfying the constraint
+
+## Constraints
+- 1 ≤ n ≤ 2000
+- 1 ≤ k ≤ 10^9
+- -10^9 ≤ array[i] ≤ 10^9

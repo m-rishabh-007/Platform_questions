@@ -1,0 +1,21 @@
+{
+  "external_id": "11",
+  "title": "Lowest Common Ancestor",
+  "difficulty": "Medium",
+  "description": "Find the Lowest Common Ancestor (LCA) of two nodes in a tree.\n\nThe LCA is the lowest node that has both nodes as descendants (a node can be a descendant of itself).\n\n## Input Format\n- First line: n (number of nodes, 0-indexed)\n- Next n-1 lines: parent child (tree edges)\n- Last line: node1 node2 (query nodes)\n\n## Output Format\n- Single integer: LCA of node1 and node2",
+  "constraints": "- 2 \u2264 n \u2264 100,000\n- 0 \u2264 node < n\n- Valid tree structure (connected, acyclic)",
+  "tags": [
+    "Tree",
+    "LCA",
+    "Graph",
+    "DSA"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

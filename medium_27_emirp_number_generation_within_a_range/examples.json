@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "100",
+    "expected_output": "13 17 31 37 71 73 79 97"
+  },
+  {
+    "stdin": "20",
+    "expected_output": "13 17"
+  },
+  {
+    "stdin": "10",
+    "expected_output": ""
+  },
+  {
+    "stdin": "50",
+    "expected_output": "13 17 31 37"
+  },
+  {
+    "stdin": "1",
+    "expected_output": ""
+  }
+]

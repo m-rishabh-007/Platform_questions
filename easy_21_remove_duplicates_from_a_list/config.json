@@ -1,0 +1,39 @@
+{
+  "generation_logic": [
+    {
+      "type": "edge_cases",
+      "count": 5,
+      "args": {
+        "predefined_values": [1, 2, 3, 4, 5]
+      }
+    },
+    {
+      "type": "small",
+      "count": 10,
+      "args": {
+        "value_range": [6, 20]
+      }
+    },
+    {
+      "type": "medium",
+      "count": 10,
+      "args": {
+        "value_range": [21, 100]
+      }
+    },
+    {
+      "type": "large",
+      "count": 10,
+      "args": {
+        "value_range": [101, 500]
+      }
+    },
+    {
+      "type": "extra_large",
+      "count": 10,
+      "args": {
+        "value_range": [501, 1000]
+      }
+    }
+  ]
+}

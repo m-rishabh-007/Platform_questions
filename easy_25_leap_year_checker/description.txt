@@ -1,0 +1,66 @@
+# Leap Year Checker
+
+## Problem Statement
+Write a function `isLeapYear` that takes a year and returns True if it is a leap year, and False otherwise. A year is a leap year if it is divisible by 4, except for end-of-century years, which must be divisible by 400.
+
+## Input Format
+- A single integer representing the year
+
+## Output Format
+- Print "True" if it's a leap year, "False" otherwise
+
+## Constraints
+- 1 ≤ year ≤ 9999
+
+## Sample Input 1
+```
+2000
+```
+
+## Sample Output 1
+```
+True
+```
+
+## Sample Input 2
+```
+1900
+```
+
+## Sample Output 2
+```
+False
+```
+
+## Sample Input 3
+```
+2024
+```
+
+## Sample Output 3
+```
+True
+```
+
+## Sample Input 4
+```
+2023
+```
+
+## Sample Output 4
+```
+False
+```
+
+## Sample Input 5
+```
+2400
+```
+
+## Sample Output 5
+```
+True
+```
+
+## Concepts Tested
+Complex conditional logic (nested if or logical operators AND/OR), modulo operator.

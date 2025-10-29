@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "{\"docs\": {\"report.txt\": null}, \"src\": {\"main.py\": null, \"utils\": {\"helpers.py\": null}}, \"readme.md\": null}\n",
+    "expected_output": "docs/\n  report.txt\nreadme.md\nsrc/\n  main.py\n  utils/\n    helpers.py\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "{\"file.txt\": null}\n",
+    "expected_output": "file.txt\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "{\"a\": {\"b\": {\"c.txt\": null}}}\n",
+    "expected_output": "a/\n  b/\n    c.txt\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "{\"config\": {\"app.json\": null, \"db.json\": null}, \"index.html\": null, \"styles\": {\"main.css\": null}}\n",
+    "expected_output": "config/\n  app.json\n  db.json\nindex.html\nstyles/\n  main.css\n",
+    "visibility": "visible"
+  }
+]

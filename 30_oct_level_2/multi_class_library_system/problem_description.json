@@ -1,0 +1,19 @@
+{
+  "external_id": "5",
+  "title": "Library System Command Processor",
+  "difficulty": "Medium",
+  "description": "Design a library management system that processes a series of commands and returns the output for each command.\n\n## Input Format\nMultiple lines of commands, each on a separate line, terminated by \"EXIT\". Each command is one of:\n- ADD BOOK \"<title>\" \"<author>\"\n- ADD MEMBER \"<name>\" <id>\n- CHECKOUT <member_id> \"<title>\"\n- RETURN \"<title>\"\n\n## Output Format\nMultiple lines, one result per command (excluding EXIT):\n- ADD BOOK: Book \"<title>\" added.\n- ADD MEMBER: Member \"<name>\" registered.\n- CHECKOUT: Checkout successful. | Error: Member not found. | Error: Book not found. | Error: Book not available.\n- RETURN: Return successful. | Error: Book not in records or was not checked out.",
+  "constraints": "- 1 <= Number of commands <= 200\n- 1 <= length of names/titles <= 100\n- 1 <= member_id <= 1000",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

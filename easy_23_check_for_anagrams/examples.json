@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "listen\nsilent",
+    "expected_output": "True"
+  },
+  {
+    "stdin": "hello\nworld",
+    "expected_output": "False"
+  },
+  {
+    "stdin": "The Eyes\nThey See",
+    "expected_output": "True"
+  },
+  {
+    "stdin": "anagram\nnagaram",
+    "expected_output": "True"
+  },
+  {
+    "stdin": "python\njava",
+    "expected_output": "False"
+  }
+]

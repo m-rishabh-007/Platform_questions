@@ -1,0 +1,46 @@
+Evacuate to Moon
+
+Charge N cars before sending them to space. Each car has energy capacity A[i] Watt-hours.
+There are M power outlets, each providing power B[j] Watt.
+
+Find maximum total energy stored in all cars after H hours.
+
+Rules:
+- An outlet can charge at most one car
+- A car can be charged by at most one outlet
+- Energy = Power × Time
+- Outlet cannot switch cars even after fully charging
+
+Input Format:
+- First line: T (number of test cases)
+- For each test case:
+  - Line 1: N M H (cars, outlets, hours)
+  - Line 2: N integers (energy capacities)
+  - Line 3: M integers (power outputs)
+
+Output Format:
+- For each test case: maximum total energy (Watt-hours)
+
+Constraints:
+- 1 ≤ T ≤ 10^5
+- 1 ≤ N, M, H, A[i], B[j] ≤ 10^5
+- Sum of N over all test cases ≤ 10^5
+- Sum of M over all test cases ≤ 10^5
+
+Example:
+Input:
+3
+1 2 2
+100
+20 40
+2 1 2
+10 20
+11
+3 2 1
+30 30 30
+40 20
+
+Output:
+80
+20
+50

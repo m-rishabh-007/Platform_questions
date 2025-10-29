@@ -1,0 +1,6 @@
+[
+  {"stdin": "Alice 101 89.5\n", "expected_output": "Name: Alice, Roll: 101, Marks: 89.5\n", "visibility": "visible"},
+  {"stdin": "Bob 202 0.0\n", "expected_output": "Name: Bob, Roll: 202, Marks: 0.0\n", "visibility": "visible"},
+  {"stdin": "A 0 0.0\n", "expected_output": "Name: A, Roll: 0, Marks: 0.0\n", "visibility": "visible"},
+  {"stdin": "Z 99999 -100.5\n", "expected_output": "Name: Z, Roll: 99999, Marks: -100.5\n", "visibility": "visible"}
+]

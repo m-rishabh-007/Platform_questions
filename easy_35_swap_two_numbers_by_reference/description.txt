@@ -1,0 +1,31 @@
+Swap Two Numbers by Reference
+
+## Problem Statement
+Write a function `swapNumbers` that takes two integers and swaps their values using call by reference.
+
+## Input Format
+- Two space-separated integers on a single line.
+
+## Output Format
+- Two space-separated integers: the swapped values.
+
+## Constraints
+- Both numbers are integers.
+- Numbers can be negative, zero, or positive.
+
+## Sample Input 1
+```
+5 9
+```
+## Sample Output 1
+```
+9 5
+```
+## Sample Input 2
+```
+-7 0
+```
+## Sample Output 2
+```
+0 -7
+```

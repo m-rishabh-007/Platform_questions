@@ -1,0 +1,19 @@
+{
+  "external_id": "15",
+  "title": "Number of Islands",
+  "difficulty": "Medium",
+  "description": "You are given an m \u00d7 n 2D binary grid which represents a map of '1's (land) \nand '0's (water). An island is formed by connecting adjacent lands horizontally \nor vertically.\n\nCount the total number of islands. Assume all four edges are surrounded by water.\n\n## Input Format\n- First line: Two integers m n (rows and columns)\n- Next m lines: n characters ('0' or '1')\n\n## Output Format\n- Single integer: number of islands",
+  "constraints": "- 1 \u2264 m, n \u2264 300\n- grid[i][j] is '0' or '1'",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

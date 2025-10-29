@@ -1,0 +1,27 @@
+[
+    {
+        "stdin": "3\nhello\nwhat is the weather\nbye\n",
+        "expected_output": "Hi there! How can I help you?\nI'm sorry, I can't check the weather, but it's always nice to go outside!\nGoodbye! Have a great day!\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "4\nhi there\nwhat is your name\ncan you help me\ngoodbye\n",
+        "expected_output": "Hi there! How can I help you?\nI'm a simple chatbot created to assist you.\nI can chat with you! Try asking about the weather or saying hello.\nGoodbye! Have a great day!\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "5\nhey\ntell me about the forecast\nwho are you\nI need support\nexit\n",
+        "expected_output": "Hi there! How can I help you?\nI'm sorry, I can't check the weather, but it's always nice to go outside!\nI'm a simple chatbot created to assist you.\nI can chat with you! Try asking about the weather or saying hello.\nGoodbye! Have a great day!\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "3\nhello bot\nwhat is machine learning\nbye now\n",
+        "expected_output": "Hi there! How can I help you?\nI'm not sure I understand. Can you rephrase that?\nGoodbye! Have a great day!\n",
+        "visibility": "visible"
+    },
+    {
+        "stdin": "2\ngood morning\nthis is confusing\n",
+        "expected_output": "I'm not sure I understand. Can you rephrase that?\nI'm not sure I understand. Can you rephrase that?\n",
+        "visibility": "visible"
+    }
+]

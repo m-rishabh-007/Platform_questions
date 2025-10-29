@@ -1,0 +1,19 @@
+{
+  "external_id": "16",
+  "title": "Product of Array Except Self",
+  "difficulty": "Medium",
+  "description": "Given an integer array nums, return an answer array such that answer[i] is \nequal to the product of all elements of nums except nums[i].\n\n## Input Format\n- First line: Integer n (array length)\n- Second line: n space-separated integers\n\n## Output Format\n- n space-separated integers (the answer array)",
+  "constraints": "- 2 \u2264 n \u2264 10^5\n- -30 \u2264 nums[i] \u2264 30\n- Product of any prefix or suffix guaranteed to fit in 32-bit integer\n- O(n) time complexity required\n- Cannot use division operation",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

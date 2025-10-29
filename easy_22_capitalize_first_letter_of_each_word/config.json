@@ -1,0 +1,43 @@
+{
+  "generation_logic": [
+    {
+      "type": "edge_cases",
+      "count": 5,
+      "args": {
+        "predefined_values": ["a", "ab", "abc", "hello world", "the quick brown fox"]
+      }
+    },
+    {
+      "type": "small",
+      "count": 10,
+      "args": {
+        "word_count_range": [1, 3],
+        "word_length_range": [2, 8]
+      }
+    },
+    {
+      "type": "medium",
+      "count": 10,
+      "args": {
+        "word_count_range": [4, 8],
+        "word_length_range": [3, 12]
+      }
+    },
+    {
+      "type": "large",
+      "count": 10,
+      "args": {
+        "word_count_range": [9, 15],
+        "word_length_range": [4, 15]
+      }
+    },
+    {
+      "type": "extra_large",
+      "count": 10,
+      "args": {
+        "word_count_range": [16, 25],
+        "word_length_range": [5, 20]
+      }
+    }
+  ]
+}

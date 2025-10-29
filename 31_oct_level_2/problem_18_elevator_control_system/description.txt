@@ -1,0 +1,65 @@
+Elevator Control System
+
+Design an object-oriented system to control elevators in a building.
+Implement a simplified simulation that processes a sequence of requests.
+
+## Input Format
+- Line 1: Three integers N M T (floors, elevators, time steps)
+- Next T lines: Requests in format "EXTERNAL floor direction" or "INTERNAL elevator_id destination"
+
+## Output Format
+- For each time step, print elevator action in the format shown in examples
+
+## Constraints
+- 2 ≤ N ≤ 100
+- 1 ≤ M ≤ 10
+- 1 ≤ T ≤ 100
+- Directions: UP, DOWN
+- Simple dispatching: use nearest idle elevator
+
+## Sample Input 1
+```
+10 2 5
+EXTERNAL 3 UP
+INTERNAL 0 7
+EXTERNAL 5 DOWN
+INTERNAL 1 2
+EXTERNAL 8 DOWN
+```
+
+## Sample Output 1
+```
+Step 0: Elevator 0 dispatched to floor 3
+Step 1: Elevator 0 moving to floor 7
+Step 2: Elevator 1 dispatched to floor 5
+Step 3: Elevator 1 moving to floor 2
+Step 4: Elevator 0 dispatched to floor 8
+```
+
+## Sample Input 2
+```
+5 1 2
+EXTERNAL 2 UP
+INTERNAL 0 4
+```
+
+## Sample Output 2
+```
+Step 0: Elevator 0 dispatched to floor 2
+Step 1: Elevator 0 moving to floor 4
+```
+
+## Sample Input 3
+```
+8 3 3
+EXTERNAL 4 UP
+EXTERNAL 6 DOWN
+INTERNAL 1 3
+```
+
+## Sample Output 3
+```
+Step 0: Elevator 0 dispatched to floor 4
+Step 1: Elevator 1 dispatched to floor 6
+Step 2: Elevator 1 moving to floor 3
+```

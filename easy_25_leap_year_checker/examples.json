@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "2000",
+    "expected_output": "True"
+  },
+  {
+    "stdin": "1900",
+    "expected_output": "False"
+  },
+  {
+    "stdin": "2024",
+    "expected_output": "True"
+  },
+  {
+    "stdin": "2023",
+    "expected_output": "False"
+  },
+  {
+    "stdin": "2400",
+    "expected_output": "True"
+  }
+]
