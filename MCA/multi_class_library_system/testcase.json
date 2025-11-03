@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "problem_05_multi_class_library_system",
+        "problem_id": 5,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 5,
+        "hidden_cases": 5,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "ADD BOOK \"Dune\" \"Frank Herbert\"\nADD MEMBER \"Bob\" 101\nCHECKOUT 101 \"Dune\"\nCHECKOUT 101 \"Dune\"\nRETURN \"Dune\"\nEXIT\n",
+          "expected_output": "Book \"Dune\" added.\nMember \"Bob\" registered.\nCheckout successful.\nError: Book not available.\nReturn successful.",
+          "is_visible": true,
+          "input_size": 9
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "ADD BOOK \"1984\" \"George Orwell\"\nADD MEMBER \"Alice\" 200\nCHECKOUT 999 \"1984\"\nCHECKOUT 200 \"Unknown\"\nEXIT\n",
+          "expected_output": "Book \"1984\" added.\nMember \"Alice\" registered.\nError: Member not found.\nError: Book not found.",
+          "is_visible": true,
+          "input_size": 9
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "RETURN \"NonExistent\"\nADD BOOK \"Brave New World\" \"Aldous Huxley\"\nRETURN \"Brave New World\"\nEXIT\n",
+          "expected_output": "Error: Book not in records or was not checked out.\nBook \"Brave New World\" added.\nError: Book not in records or was not checked out.",
+          "is_visible": true,
+          "input_size": 9
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "ADD BOOK \"The Hobbit\" \"J.R.R. Tolkien\"\nADD MEMBER \"Charlie\" 300\nADD MEMBER \"Diana\" 400\nCHECKOUT 300 \"The Hobbit\"\nCHECKOUT 400 \"The Hobbit\"\nRETURN \"The Hobbit\"\nCHECKOUT 400 \"The Hobbit\"\nEXIT\n",
+          "expected_output": "Book \"The Hobbit\" added.\nMember \"Charlie\" registered.\nMember \"Diana\" registered.\nCheckout successful.\nError: Book not available.\nReturn successful.\nCheckout successful.",
+          "is_visible": true,
+          "input_size": 10
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "ADD BOOK \"Animal Farm\" \"George Orwell\"\nADD BOOK \"Animal Farm\" \"George Orwell\"\nADD MEMBER \"Eve\" 500\nADD MEMBER \"Eve\" 500\nEXIT\n",
+          "expected_output": "Book \"Animal Farm\" added.\nMember \"Eve\" registered.",
+          "is_visible": true,
+          "input_size": 12
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "ADD BOOK \"Book1\" \"Author1\"\nADD BOOK \"Book1\" \"Author1\"\nEXIT",
+          "expected_output": "Book \"Book1\" added.",
+          "is_visible": false,
+          "input_size": 8
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "CHECKOUT 999 \"NonExistent\"\nEXIT",
+          "expected_output": "Error: Member not found.",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "ADD BOOK \"Book1\" \"Author1\"\nADD BOOK \"Book1\" \"Author1\"\nEXIT",
+          "expected_output": "Book \"Book1\" added.",
+          "is_visible": false,
+          "input_size": 8
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "CHECKOUT 999 \"NonExistent\"\nEXIT",
+          "expected_output": "Error: Member not found.",
+          "is_visible": false,
+          "input_size": 4
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "CHECKOUT 999 \"NonExistent\"\nEXIT",
+          "expected_output": "Error: Member not found.",
+          "is_visible": false,
+          "input_size": 4
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "problem_05_multi_class_library_system",
+        "problem_id": 5,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 5,
+        "hidden_cases": 5,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "ADD BOOK \"Dune\" \"Frank Herbert\"\nADD MEMBER \"Bob\" 101\nCHECKOUT 101 \"Dune\"\nCHECKOUT 101 \"Dune\"\nRETURN \"Dune\"\nEXIT\n",
+          "expected_output": "Book \"Dune\" added.\nMember \"Bob\" registered.\nCheckout successful.\nError: Book not available.\nReturn successful.",
+          "is_visible": true,
+          "input_size": 9
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "ADD BOOK \"1984\" \"George Orwell\"\nADD MEMBER \"Alice\" 200\nCHECKOUT 999 \"1984\"\nCHECKOUT 200 \"Unknown\"\nEXIT\n",
+          "expected_output": "Book \"1984\" added.\nMember \"Alice\" registered.\nError: Member not found.\nError: Book not found.",
+          "is_visible": true,
+          "input_size": 9
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "RETURN \"NonExistent\"\nADD BOOK \"Brave New World\" \"Aldous Huxley\"\nRETURN \"Brave New World\"\nEXIT\n",
+          "expected_output": "Error: Book not in records or was not checked out.\nBook \"Brave New World\" added.\nError: Book not in records or was not checked out.",
+          "is_visible": true,
+          "input_size": 9
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "ADD BOOK \"The Hobbit\" \"J.R.R. Tolkien\"\nADD MEMBER \"Charlie\" 300\nADD MEMBER \"Diana\" 400\nCHECKOUT 300 \"The Hobbit\"\nCHECKOUT 400 \"The Hobbit\"\nRETURN \"The Hobbit\"\nCHECKOUT 400 \"The Hobbit\"\nEXIT\n",
+          "expected_output": "Book \"The Hobbit\" added.\nMember \"Charlie\" registered.\nMember \"Diana\" registered.\nCheckout successful.\nError: Book not available.\nReturn successful.\nCheckout successful.",
+          "is_visible": true,
+          "input_size": 10
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "ADD BOOK \"Animal Farm\" \"George Orwell\"\nADD BOOK \"Animal Farm\" \"George Orwell\"\nADD MEMBER \"Eve\" 500\nADD MEMBER \"Eve\" 500\nEXIT\n",
+          "expected_output": "Book \"Animal Farm\" added.\nMember \"Eve\" registered.",
+          "is_visible": true,
+          "input_size": 12
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "ADD BOOK \"Test\" \"Author\"\nEXIT",
+          "expected_output": "Book \"Test\" added.",
+          "is_visible": false,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "RETURN \"NonExistent\"\nEXIT",
+          "expected_output": "Error: Book not in records or was not checked out.",
+          "is_visible": false,
+          "input_size": 3
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "ADD BOOK \"Test\" \"Author\"\nEXIT",
+          "expected_output": "Book \"Test\" added.",
+          "is_visible": false,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "ADD MEMBER \"Alice\" 1\nEXIT",
+          "expected_output": "Member \"Alice\" registered.",
+          "is_visible": false,
+          "input_size": 5
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "ADD BOOK \"Book1\" \"Author1\"\nADD BOOK \"Book1\" \"Author1\"\nEXIT",
+          "expected_output": "Book \"Book1\" added.",
+          "is_visible": false,
+          "input_size": 8
+        }
+      ]
+    }
+  ]
+}

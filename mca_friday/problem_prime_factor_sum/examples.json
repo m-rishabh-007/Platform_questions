@@ -1,0 +1,22 @@
+[
+  {
+    "stdin": "12\n",
+    "expected_output": "5\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "100\n",
+    "expected_output": "7\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "30\n",
+    "expected_output": "10\n",
+    "visibility": "visible"
+  },
+  {
+    "stdin": "2\n",
+    "expected_output": "2\n",
+    "visibility": "visible"
+  }
+]

@@ -1,0 +1,44 @@
+Sum of Distinct Prime Factors
+
+Given a positive integer n, find the sum of all its distinct prime factors.
+
+## Input Format
+- Single integer n
+
+## Output Format
+- Sum of distinct prime factors
+
+## Constraints
+- 2 ≤ n ≤ 10^9
+- Answer will fit in 64-bit integer
+
+## Sample Input 1
+```
+12
+```
+
+## Sample Output 1
+```
+5
+```
+
+## Sample Input 2
+```
+100
+```
+
+## Sample Output 2
+```
+7
+```
+
+## Sample Input 3
+```
+30
+```
+
+## Sample Output 3
+```
+10
+```
+````

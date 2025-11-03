@@ -1,0 +1,19 @@
+{
+  "external_id": "1",
+  "title": "Balanced Brackets",
+  "difficulty": "Easy",
+  "description": "Determine if a string containing brackets ()[]{}  is valid:\n1. Open brackets must be closed by the same type\n2. Open brackets must be closed in correct order\n3. Every close bracket has a corresponding open bracket\n\n## Input Format\n- Single line: string containing only ()[]{}\n\n## Output Format\n- \"true\" if balanced, \"false\" otherwise",
+  "constraints": "- 0 <= string length <= 10000",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

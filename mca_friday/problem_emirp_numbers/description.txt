@@ -1,0 +1,49 @@
+The Enigma of Mirrored Primes (Emirp)
+
+An Emirp is a prime number that results in a different prime when its digits 
+are reversed. Palindromic primes are excluded.
+
+Find the n-th Emirp number.
+
+Examples: 13, 17, 31, 37, 71, 73, 79, 97, 107, 113...
+(13 reversed is 31, both prime; 11 is palindrome so excluded)
+
+## Input Format
+- Single integer n
+
+## Output Format
+- The n-th Emirp number
+
+## Constraints
+- 1 ≤ n ≤ 1000
+- Answer will fit in 32-bit integer
+
+## Sample Input 1
+```
+1
+```
+
+## Sample Output 1
+```
+13
+```
+
+## Sample Input 2
+```
+5
+```
+
+## Sample Output 2
+```
+71
+```
+
+## Sample Input 3
+```
+10
+```
+
+## Sample Output 3
+```
+113
+```

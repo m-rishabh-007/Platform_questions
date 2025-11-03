@@ -1,0 +1,19 @@
+{
+  "external_id": "8",
+  "title": "The Enigma of Mirrored Primes (Emirp)",
+  "difficulty": "Medium",
+  "description": "The Enigma of Mirrored Primes (Emirp)\n\nAn Emirp is a prime number that results in a different prime when its digits \nare reversed. Palindromic primes are excluded.\n\nFind the n-th Emirp number.\n\nExamples: 13, 17, 31, 37, 71, 73, 79, 97, 107, 113...\n(13 reversed is 31, both prime; 11 is palindrome so excluded)\n\n## Input Format\n- Single integer n\n\n## Output Format\n- The n-th Emirp number\n\n## Constraints\n- 1 \u2264 n \u2264 1000\n- Answer will fit in 32-bit integer\n\n## Sample Input 1\n```\n1\n```\n\n## Sample Output 1\n```\n13\n```\n\n## Sample Input 2\n```\n5\n```\n\n## Sample Output 2\n```\n71\n```\n\n## Sample Input 3\n```\n10\n```\n\n## Sample Output 3\n```\n113\n```\n",
+  "constraints": "",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

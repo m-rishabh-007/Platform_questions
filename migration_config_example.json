@@ -1,0 +1,40 @@
+{
+  "migrations": [
+    {
+      "source": "source_folder/problem_bubble_sort",
+      "target": "target_folder/bubble_sort",
+      "external_id": "7",
+      "title": "Bubble Sort Comparison Counter",
+      "difficulty": "Medium",
+      "sample_size": 10,
+      "random_seed": 42
+    },
+    {
+      "source": "source_folder/problem_emirp_numbers",
+      "target": "target_folder/emirp_numbers",
+      "external_id": "8",
+      "title": "Find Nth Emirp Number",
+      "difficulty": "Medium",
+      "sample_size": 10,
+      "random_seed": 42
+    },
+    {
+      "source": "source_folder/problem_tribonacci",
+      "target": "target_folder/tribonacci_sequence",
+      "external_id": "9",
+      "title": "Tribonacci Sequence Sum",
+      "difficulty": "Medium",
+      "sample_size": 10,
+      "random_seed": 42
+    },
+    {
+      "source": "source_folder/problem_prime_factors",
+      "target": "target_folder/prime_factors",
+      "external_id": "10",
+      "title": "Sum of Prime Factors",
+      "difficulty": "Medium",
+      "sample_size": 10,
+      "random_seed": 42
+    }
+  ]
+}

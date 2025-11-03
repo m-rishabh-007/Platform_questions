@@ -1,0 +1,18 @@
+{
+  "external_id": "33",
+  "title": "Sum Of Array Of 5 Integers",
+  "difficulty": "Easy",
+  "description": "## Problem Statement\nWrite a function `sumOfFive` that takes an array of 5 integers and returns their sum.\n\n## Input Format\n- Five space-separated integers on a single line.\n\n## Output Format\n- A single integer: the sum of the five input numbers.",
+  "constraints": "- Each number is an integer.\n- Numbers can be negative, zero, or positive.",
+  "tags": [
+    "Problem Solving"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

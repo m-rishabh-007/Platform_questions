@@ -1,0 +1,174 @@
+{
+  "languages": [
+    {
+      "language": "python",
+      "metadata": {
+        "problem_name": "problem_01_balanced_brackets",
+        "problem_id": 1,
+        "language_id": 71,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "()[]{}\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "([)]\n",
+          "expected_output": "false",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "{[]}\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 0
+        },
+        {
+          "test_case_no": 5,
+          "stdin": "((",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "((",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "))",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "((",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "()",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "{}",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "metadata": {
+        "problem_name": "problem_01_balanced_brackets",
+        "problem_id": 1,
+        "language_id": 54,
+        "total_test_cases": 10,
+        "visible_cases": 4,
+        "hidden_cases": 6,
+        "tle_limit": 1.0,
+        "mle_limit": 64000
+      },
+      "test_cases": [
+        {
+          "test_case_no": 1,
+          "stdin": "()[]{}\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 2,
+          "stdin": "([)]\n",
+          "expected_output": "false",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 3,
+          "stdin": "{[]}\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 4,
+          "stdin": "\n",
+          "expected_output": "true",
+          "is_visible": true,
+          "input_size": 0
+        },
+        {
+          "test_case_no": 5,
+          "stdin": ")",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 6,
+          "stdin": "[]",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 7,
+          "stdin": "[]",
+          "expected_output": "true",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 8,
+          "stdin": "([)]",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 9,
+          "stdin": "((",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        },
+        {
+          "test_case_no": 10,
+          "stdin": "{({[((((]{",
+          "expected_output": "false",
+          "is_visible": false,
+          "input_size": 1
+        }
+      ]
+    }
+  ]
+}

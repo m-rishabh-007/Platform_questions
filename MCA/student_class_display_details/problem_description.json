@@ -1,0 +1,18 @@
+{
+  "external_id": "34",
+  "title": "Student Class Display Details",
+  "difficulty": "Easy",
+  "description": "## Problem Statement\nWrite a function `getStudentDetails` that takes a student's name (string), roll number (integer), and marks (float) as input, and returns a formatted string displaying all details.\n\n## Input Format\n- A single line containing: name (string), roll (integer), marks (float), separated by spaces.\n\n## Output Format\n- A single line: `Name: <name>, Roll: <roll>, Marks: <marks>`",
+  "constraints": "- Name is a non-empty string (no spaces).\n- Roll is an integer.\n- Marks is a float (can be negative, zero, or positive).",
+  "tags": [
+    "Problem Solving"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

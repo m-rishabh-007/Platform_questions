@@ -1,0 +1,268 @@
+{
+  "python": {
+    "metadata": {
+      "problem_name": "problem_prime_factor_sum",
+      "language": "python",
+      "language_id": 71,
+      "total_test_cases": 34,
+      "visible_cases": 4,
+      "hidden_cases": 30,
+      "meaningful_cases_for_cm": 34,
+      "time_threshold": 0.005,
+      "baseline_time": 0.04,
+      "baseline_memory": 4200,
+      "zero_time_cases": 0,
+      "zero_memory_cases": 31,
+      "max_admin_time": 0.037,
+      "max_admin_memory": 264,
+      "tle_limit": 1.0,
+      "mle_limit": 64000,
+      "generation_timestamp": 1762167507.8489943
+    },
+    "test_cases": [
+      {
+        "test_case_no": 1,
+        "stdin": "12\n",
+        "expected_output": "5",
+        "is_visible": true,
+        "admin_time": 0.024,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.064,
+        "raw_memory": 4224
+      },
+      {
+        "test_case_no": 2,
+        "stdin": "100\n",
+        "expected_output": "7",
+        "is_visible": true,
+        "admin_time": 0.031999999999999994,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.072,
+        "raw_memory": 4236
+      },
+      {
+        "test_case_no": 3,
+        "stdin": "30\n",
+        "expected_output": "10",
+        "is_visible": true,
+        "admin_time": 0.025,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.065,
+        "raw_memory": 4236
+      },
+      {
+        "test_case_no": 4,
+        "stdin": "2\n",
+        "expected_output": "2",
+        "is_visible": true,
+        "admin_time": 0.018000000000000002,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.058,
+        "raw_memory": 4316
+      },
+      {
+        "stdin": "220238288",
+        "expected_output": "9056",
+        "is_visible": false,
+        "admin_time": 0.015,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.055,
+        "raw_memory": 4308,
+        "test_case_no": 30
+      },
+      {
+        "stdin": "766517335",
+        "expected_output": "19962",
+        "is_visible": false,
+        "admin_time": 0.015,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.055,
+        "raw_memory": 4236,
+        "test_case_no": 32
+      },
+      {
+        "stdin": "7",
+        "expected_output": "7",
+        "is_visible": false,
+        "admin_time": 0.018000000000000002,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.058,
+        "raw_memory": 4240,
+        "test_case_no": 5
+      },
+      {
+        "stdin": "274616282",
+        "expected_output": "23760",
+        "is_visible": false,
+        "admin_time": 0.020999999999999998,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.061,
+        "raw_memory": 4280,
+        "test_case_no": 29
+      },
+      {
+        "stdin": "381923308",
+        "expected_output": "7344694",
+        "is_visible": false,
+        "admin_time": 0.018000000000000002,
+        "admin_memory": 210.0,
+        "input_size": 1,
+        "raw_time": 0.058,
+        "raw_memory": 4240,
+        "test_case_no": 34
+      },
+      {
+        "stdin": "16",
+        "expected_output": "2",
+        "is_visible": false,
+        "admin_time": 0.020999999999999998,
+        "admin_memory": 224,
+        "input_size": 1,
+        "raw_time": 0.061,
+        "raw_memory": 4424,
+        "test_case_no": 10
+      }
+    ]
+  },
+  "cpp": {
+    "metadata": {
+      "problem_name": "problem_prime_factor_sum",
+      "language": "cpp",
+      "language_id": 54,
+      "total_test_cases": 35,
+      "visible_cases": 4,
+      "hidden_cases": 31,
+      "meaningful_cases_for_cm": 1,
+      "time_threshold": 0.005,
+      "baseline_time": 0.007,
+      "baseline_memory": 976,
+      "zero_time_cases": 16,
+      "zero_memory_cases": 32,
+      "max_admin_time": 0.005999999999999999,
+      "max_admin_memory": 196,
+      "tle_limit": 1.0,
+      "mle_limit": 64000,
+      "generation_timestamp": 1762167900.5925522
+    },
+    "test_cases": [
+      {
+        "test_case_no": 1,
+        "stdin": "12\n",
+        "expected_output": "5",
+        "is_visible": true,
+        "admin_time": 0.001,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.008,
+        "raw_memory": 944
+      },
+      {
+        "test_case_no": 2,
+        "stdin": "100\n",
+        "expected_output": "7",
+        "is_visible": true,
+        "admin_time": 0.001999999999999999,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.009,
+        "raw_memory": 896
+      },
+      {
+        "test_case_no": 3,
+        "stdin": "30\n",
+        "expected_output": "10",
+        "is_visible": true,
+        "admin_time": 0.0,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.007,
+        "raw_memory": 972
+      },
+      {
+        "test_case_no": 4,
+        "stdin": "2\n",
+        "expected_output": "2",
+        "is_visible": true,
+        "admin_time": 0.0,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.007,
+        "raw_memory": 980
+      },
+      {
+        "stdin": "106141186",
+        "expected_output": "53070595",
+        "is_visible": false,
+        "admin_time": 0.0,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.007,
+        "raw_memory": 972,
+        "test_case_no": 27
+      },
+      {
+        "stdin": "4642",
+        "expected_output": "224",
+        "is_visible": false,
+        "admin_time": 0.001999999999999999,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.009,
+        "raw_memory": 948,
+        "test_case_no": 18
+      },
+      {
+        "stdin": "1586",
+        "expected_output": "76",
+        "is_visible": false,
+        "admin_time": 0.001999999999999999,
+        "admin_memory": 196,
+        "input_size": 1,
+        "raw_time": 0.009,
+        "raw_memory": 1172,
+        "test_case_no": 15
+      },
+      {
+        "stdin": "98",
+        "expected_output": "9",
+        "is_visible": false,
+        "admin_time": 0.001999999999999999,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.009,
+        "raw_memory": 948,
+        "test_case_no": 13
+      },
+      {
+        "stdin": "2",
+        "expected_output": "2",
+        "is_visible": false,
+        "admin_time": 0.001999999999999999,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.009,
+        "raw_memory": 940,
+        "test_case_no": 9
+      },
+      {
+        "stdin": "85",
+        "expected_output": "22",
+        "is_visible": false,
+        "admin_time": 0.0,
+        "admin_memory": 48.800000000000004,
+        "input_size": 1,
+        "raw_time": 0.006,
+        "raw_memory": 980,
+        "test_case_no": 11
+      }
+    ]
+  }
+}

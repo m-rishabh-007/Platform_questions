@@ -1,0 +1,19 @@
+{
+  "external_id": "3",
+  "title": "Matrix Spiral Traversal",
+  "difficulty": "Easy",
+  "description": "Traverse a matrix in spiral order: right → down → left → up, continuing inward.\n\n## Input Format\n- Line 1: Two space-separated integers m (rows) and n (columns)\n- Next m lines: n space-separated integers per row\n\n## Output Format\n- Single line of space-separated integers in spiral order",
+  "constraints": "- 1 <= m, n <= 100\n- -1000 <= matrix values <= 1000",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

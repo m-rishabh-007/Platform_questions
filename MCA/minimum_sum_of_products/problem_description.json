@@ -1,0 +1,19 @@
+{
+  "external_id": "4",
+  "title": "Minimum Sum of Products",
+  "difficulty": "Medium",
+  "description": "Given two arrays A and B where len(B) <= len(A), select a subset of A with the same size as B.\nPair elements from the subset with B to minimize the sum of products.\n\nStrategy: Sort both arrays. Select the smallest elements from A. Pair smallest from A-subset with largest from B.\n\n## Input Format\n- Line 1: Space-separated integers for array A\n- Line 2: Space-separated integers for array B\n\n## Output Format\n- Single integer: minimum possible sum of products",
+  "constraints": "- 1 <= len(B) <= len(A) <= 1000\n- -1000 <= array values <= 1000",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

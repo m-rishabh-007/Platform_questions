@@ -1,0 +1,53 @@
+````plaintext
+Tribonacci Sequence Sum
+
+The Tribonacci sequence is defined as:
+- T(0) = 1
+- T(1) = 1
+- T(2) = 2
+- T(n) = T(n-1) + T(n-2) + T(n-3) for n > 2
+
+Calculate the sum of the first (n+1) terms of the Tribonacci sequence, i.e., T(0) + T(1) + T(2) + ... + T(n).
+
+Tribonacci sequence: 1, 1, 2, 4, 7, 13, 24, 44, 81...
+Cumulative sum: 1, 2, 4, 8, 15, 28, 52, 96, 177...
+
+## Input Format
+- Single integer n (level)
+
+## Output Format
+- Sum of first (n+1) terms of the Tribonacci sequence
+
+## Constraints
+- 0 ≤ n ≤ 35
+- Answer will fit in 64-bit integer
+
+## Sample Input 1
+```
+0
+```
+
+## Sample Output 1
+```
+1
+```
+
+## Sample Input 2
+```
+3
+```
+
+## Sample Output 2
+```
+8
+```
+
+## Sample Input 3
+```
+5
+```
+
+## Sample Output 3
+```
+28
+```

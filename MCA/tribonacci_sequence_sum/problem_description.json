@@ -1,0 +1,19 @@
+{
+  "external_id": "9",
+  "title": "````plaintext",
+  "difficulty": "Medium",
+  "description": "````plaintext\nTribonacci Sequence Sum\n\nThe Tribonacci sequence is defined as:\n- T(0) = 1\n- T(1) = 1\n- T(2) = 2\n- T(n) = T(n-1) + T(n-2) + T(n-3) for n > 2\n\nCalculate the sum of the first (n+1) terms of the Tribonacci sequence, i.e., T(0) + T(1) + T(2) + ... + T(n).\n\nTribonacci sequence: 1, 1, 2, 4, 7, 13, 24, 44, 81...\nCumulative sum: 1, 2, 4, 8, 15, 28, 52, 96, 177...\n\n## Input Format\n- Single integer n (level)\n\n## Output Format\n- Sum of first (n+1) terms of the Tribonacci sequence\n\n## Constraints\n- 0 \u2264 n \u2264 35\n- Answer will fit in 64-bit integer\n\n## Sample Input 1\n```\n0\n```\n\n## Sample Output 1\n```\n1\n```\n\n## Sample Input 2\n```\n3\n```\n\n## Sample Output 2\n```\n8\n```\n\n## Sample Input 3\n```\n5\n```\n\n## Sample Output 3\n```\n28\n```\n",
+  "constraints": "",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

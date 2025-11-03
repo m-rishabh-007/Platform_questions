@@ -1,0 +1,19 @@
+{
+  "external_id": "10",
+  "title": "Sum of Distinct Prime Factors",
+  "difficulty": "Medium",
+  "description": "Sum of Distinct Prime Factors\n\nGiven a positive integer n, find the sum of all its distinct prime factors.\n\n## Input Format\n- Single integer n\n\n## Output Format\n- Sum of distinct prime factors\n\n## Constraints\n- 2 \u2264 n \u2264 10^9\n- Answer will fit in 64-bit integer\n\n## Sample Input 1\n```\n12\n```\n\n## Sample Output 1\n```\n5\n```\n\n## Sample Input 2\n```\n100\n```\n\n## Sample Output 2\n```\n7\n```\n\n## Sample Input 3\n```\n30\n```\n\n## Sample Output 3\n```\n10\n```\n````\n",
+  "constraints": "",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}

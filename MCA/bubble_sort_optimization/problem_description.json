@@ -1,0 +1,19 @@
+{
+  "external_id": "7",
+  "title": "Bubble Sort Comparison Counter",
+  "difficulty": "Medium",
+  "description": "Bubble Sort Comparison Counter\n\nImplement a comparison counter for two versions of Bubble Sort:\n\n1. **Naive Bubble Sort**: In pass i (0 to n-2), compare adjacent elements from index 0 to (n-2-i).\n   - Pass 0: n-1 comparisons\n   - Pass 1: n-2 comparisons\n   - ...\n   - Pass n-2: 1 comparison\n   - Total: (n-1) + (n-2) + ... + 1 = n*(n-1)/2 comparisons\n\n2. **Optimized Bubble Sort**: Track the index of the last swap in each pass. In the next pass, only compare up to that index (since elements after it are already sorted). Stop when no swaps occur.\n\nCalculate the difference: (Naive comparisons) - (Optimized comparisons).\n\n## Input Format\n- First line: Integer n (array length)\n- Second line: n space-separated integers\n\n## Output Format\n- Single integer: number of comparisons saved\n\n## Constraints\n- 1 \u2264 n \u2264 1000\n- -10^6 \u2264 arr[i] \u2264 10^6\n\n## Sample Input 1\n```\n5\n5 1 4 2 8\n```\n\n## Sample Output 1\n```\n3\n```\n\n## Sample Input 2\n```\n4\n1 2 3 4\n```\n\n## Sample Output 2\n```\n3\n```\n````\n",
+  "constraints": "",
+  "tags": [
+    "Problem Solving",
+    "Algorithm"
+  ],
+  "templates": {
+    "python_path": "templates/python.py",
+    "cpp_path": "templates/cpp.cpp"
+  },
+  "wrappers": {
+    "python_path": "wrappers/wrapper.py",
+    "cpp_path": "wrappers/wrapper.cpp"
+  }
+}
